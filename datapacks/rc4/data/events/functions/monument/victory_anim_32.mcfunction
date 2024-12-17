@@ -1,0 +1,1 @@
+summon firework_rocket 153 168 313 {LifeTime:22,FireworksItem:{id:"firework_rocket",Count:1,tag:{Fireworks:{Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;16776066],FadeColors:[I;16383974]},{Type:4,Flicker:1b,Trail:1b,Colors:[I;16754240],FadeColors:[I;15912110]}]}}}}

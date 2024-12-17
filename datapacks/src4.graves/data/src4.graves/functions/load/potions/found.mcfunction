@@ -1,0 +1,1 @@
+execute unless data storage src4.graves:main {temp_item:{Count:1b}} run function src4.graves:load/potions/drop

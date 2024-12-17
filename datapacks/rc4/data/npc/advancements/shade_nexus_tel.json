@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"shade_nexus_tel\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "npc:shade_nexus/tel_1"
+  }
+}

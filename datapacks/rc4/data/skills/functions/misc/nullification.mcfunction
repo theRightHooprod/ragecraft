@@ -1,0 +1,1 @@
+execute at @s run execute as @e[type=#minecraft:hostile,tag=!no_target,distance=..40,nbt={HurtTime:10s}] at @s run function skills:misc/nullification_hit

@@ -1,0 +1,2 @@
+execute if score #rc4tick runekeeper_killed matches ..3 run function events:gates/ancient_vault_fail
+execute if score #rc4tick runekeeper_killed matches 4 run scoreboard players set #rc4tick runekeeper_killed 5

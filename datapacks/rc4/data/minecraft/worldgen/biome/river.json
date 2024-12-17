@@ -1,0 +1,38 @@
+{
+  "effects": {
+    "music": {
+      "sound": "",
+      "min_delay": 12000,
+      "max_delay": 16000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:falling_water"
+      },
+      "probability": 0.01
+    },
+    "ambient_sound": "minecraft:ambient.underwater.loop",
+    "sky_color": 3488059,
+    "fog_color": 3488059,
+    "water_color": 3625,
+    "water_fog_color": 0,
+    "grass_color": 4941832,
+    "foliage_color": 4941832
+  },
+  "additions_sound": {
+    "sound": "minecraft:ambient.underwater.loop.additions",
+    "tick_chance": 0.004
+  },
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false
+}

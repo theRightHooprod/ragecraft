@@ -1,0 +1,1 @@
+execute if score #rc4tick void_1_phase matches 1..5 run function boss:void_arena/1_reset_arena

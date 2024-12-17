@@ -1,0 +1,1 @@
+playsound minecraft:block.conduit.ambient.short block @a ~ ~ ~ .5 .5

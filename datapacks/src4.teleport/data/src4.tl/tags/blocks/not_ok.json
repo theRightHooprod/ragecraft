@@ -1,0 +1,12 @@
+{
+    "values":[
+        "#src4.tl:ok",
+        "minecraft:lava",
+        "minecraft:cactus",
+        "minecraft:water",
+        "#minecraft:fences",
+        "#minecraft:fence_gates",
+        "minecraft:cobweb",
+        "minecraft:fire"
+    ]
+}

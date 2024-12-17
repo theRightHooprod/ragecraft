@@ -1,0 +1,1 @@
+execute at @s positioned ~ ~0.5 ~ unless entity @e[type=#minecraft:hostile,scores={arctic_target=1..},distance=..0] run function skills:bow/arctic_frozen_end

@@ -1,0 +1,5 @@
+execute at @s run particle dust 0.690 0.816 1.000 1 ~ ~0.5 ~ 0.4 0.4 0.4 0.1 120 normal
+execute at @s run particle snowflake ~ ~ ~ 0.4 0.4 0.4 0.01 50 normal
+execute at @s run summon vex ~ ~ ~ {DeathLootTable:"none",CanPickUpLoot:0b,Health:10f,Tags:["custom","ice_phantom","attack_slowness","custom_vex"],CustomName:'{"text":"Ice Phantom","color":"red","bold":false,"italic":false}',HandItems:[{id:"minecraft:diamond_sword",Count:1b,tag:{CustomModelData:22,Enchantments:[{id:"minecraft:sharpness",lvl:3s},{id:"minecraft:knockback",lvl:2s}]}},{}],HandDropChances:[0.000F,0.000F],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-1469924520,144524547,-1851072568,1961653187],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QyODAwODZkMDlkZDRkZjY4M2NlMzU1ZDIwZTczZGFmMzQ2ZTMzOWYzNzQxMjE2MjkxNmMxZjM0OGY0Zjk4MCJ9fX0="}]}}}}],ArmorDropChances:[0.085F,0.085F,0.085F,0.000F],Attributes:[{Name:"generic.max_health",Base:10},{Name:"generic.follow_range",Base:40}]}
+
+execute as @a unless entity @p[tag=!14_cryomancer] run function general:encyclopedia/14_cryomancer

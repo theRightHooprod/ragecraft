@@ -1,0 +1,5 @@
+execute at @s run playsound entity.villager.yes master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+execute as @s run tellraw @s [{"text":"[Shade] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"Legend has it that some sadistic godlike entity once created three giant arenas inside the void, each of them protected by a powerful sphere of dark energy. Any hero who is strong enough to destroy all three void sphere would reap rewards beyond their imagination.","color":"#A6DBFF","bold":false,"italic":false}]
+tellraw @s [{"text":""}]
+execute as @s run tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"You had me at 'rewards'. How do I enter these arenas? ","color":"#77C265","bold":false,"italic":false},{"text":"( *CLICK TO CONTINUE* )","color":"#969C94","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function npc:shade_void/2_4"}}]

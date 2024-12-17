@@ -1,0 +1,2 @@
+execute at @s positioned ~ ~-0.3 ~ unless entity @s[x=-70,y=1,z=252,dx=95,dy=150,dz=100] run tp ~ ~ ~
+execute unless entity @s[x=-70,y=1,z=252,dx=95,dy=150,dz=100] run function boss:void_arena/void_sphere_b2x

@@ -1,0 +1,1 @@
+execute unless entity @e[type=piglin,tag=squealy,x=10,y=169,z=306,dx=2,dy=2,dz=2] run function area:nexus_squealy_spawn

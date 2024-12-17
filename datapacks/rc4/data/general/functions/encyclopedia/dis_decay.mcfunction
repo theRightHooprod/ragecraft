@@ -1,0 +1,1 @@
+execute if entity @p[nbt={Inventory:[{tag:{dis_decay:1b}}]}] run function general:encyclopedia/dis_decay2

@@ -1,0 +1,1 @@
+execute at @s[predicate=suso.nats:lush_caves] run function suso.nats:spawn/ground/light_lush_caves

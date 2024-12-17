@@ -1,0 +1,1 @@
+data modify entity @s HandDropChances set value [0.000F,0.000F]

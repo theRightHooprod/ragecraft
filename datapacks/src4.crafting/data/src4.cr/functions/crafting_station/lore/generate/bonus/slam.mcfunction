@@ -1,0 +1,7 @@
+execute if score $temp src4.cr matches 1 run data modify storage src4.cr:main bonus_lore append value '[{"text":"Slam","italic":false,"color":"#c0affd"},{"text":" I"}]'
+execute if score $temp src4.cr matches 2 run data modify storage src4.cr:main bonus_lore append value '[{"text":"Slam","italic":false,"color":"#c0affd"},{"text":" II"}]'
+execute if score $temp src4.cr matches 3 run data modify storage src4.cr:main bonus_lore append value '[{"text":"Slam","italic":false,"color":"#c0affd"},{"text":" III"}]'
+execute if score $temp src4.cr matches 4 run data modify storage src4.cr:main bonus_lore append value '[{"text":"Slam","italic":false,"color":"#c0affd"},{"text":" IV"}]'
+execute if score $temp src4.cr matches 5 run data modify storage src4.cr:main bonus_lore append value '[{"text":"Slam","italic":false,"color":"#c0affd"},{"text":" V"}]'
+execute if score $temp src4.cr matches 6 run data modify storage src4.cr:main bonus_lore append value '[{"text":"Slam","italic":false,"color":"#c0affd"},{"text":" VI"}]'
+execute if score $temp src4.cr matches 7 run data modify storage src4.cr:main bonus_lore append value '[{"text":"Slam","italic":false,"color":"#c0affd"},{"text":" VII"}]'

@@ -1,0 +1,41 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "effects": {
+    "music": {
+      "sound": "",
+      "min_delay": 12000,
+      "max_delay": 16000,
+      "replace_current_music": true
+    },
+    "sky_color": 327700,
+    "fog_color": 2068,
+    "water_color": 1391754,
+    "water_fog_color": 394807,
+    "grass_color": 1846303,
+    "foliage_color": 1846303,
+    "grass_color_modifier": "swamp",
+    "ambient_sound": "ambient.nether_wastes.loop",
+    "mood_sound": {
+      "sound": "ambient.crimson_forest.mood",
+      "tick_delay": 4000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.warped_forest.additions",
+      "tick_chance": 0.03
+    },
+    "particle": {
+      "options": {
+        "type": "ash"
+      },
+      "probability": 0.15
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [],
+  "has_precipitation": false
+}

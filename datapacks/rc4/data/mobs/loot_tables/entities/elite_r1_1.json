@@ -1,0 +1,48 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 12,
+        "bonus_rolls": 4,
+        "entries": [
+          {
+            "type": "item",
+            "weight": 20,
+            "name": "minecraft:cooked_chicken",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 20,
+            "name": "minecraft:arrow",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 2
+              }
+            ]
+          },
+          {
+            "type": "item",
+            "weight": 30,
+            "name": "minecraft:cobblestone",
+            "functions": [
+              {
+                "function": "set_count",
+                "count": 3
+              }
+            ]
+          },
+          {
+            "type": "empty",
+            "weight": 50
+          }
+        ]
+      }
+    ]
+  }

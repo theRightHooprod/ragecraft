@@ -1,0 +1,27 @@
+{
+  "effects": {
+    "music": {
+      "sound": "",
+      "min_delay": 12000,
+      "max_delay": 16000,
+      "replace_current_music": true
+    },
+    "sky_color": 8495297,
+    "fog_color": 11123403,
+    "water_color": 2641562,
+    "water_fog_color": 1513290,
+    "grass_color": 7375171,
+    "foliage_color": 7375171
+  },
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false
+}

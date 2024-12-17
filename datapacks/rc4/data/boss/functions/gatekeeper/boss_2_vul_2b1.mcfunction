@@ -1,0 +1,12 @@
+particle cloud 1149 38 -837 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1156 38 -835 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1160 38 -831 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1162 38 -824 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1160 38 -817 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1156 38 -813 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1149 38 -811 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1142 38 -813 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1138 38 -817 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1136 38 -824 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1138 38 -831 0.4 0.3 0.4 0.01 3 normal
+particle cloud 1142 38 -835 0.4 0.3 0.4 0.01 3 normal

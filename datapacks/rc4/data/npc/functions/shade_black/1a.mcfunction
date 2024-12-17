@@ -1,0 +1,5 @@
+execute at @s run playsound entity.villager.yes master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[Shade] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"I still remember when you were a young and naive adventurer, clumsily scouring the overworld for minor treasures. Now look how far you have come, thanks to my wisdom and guidance!","color":"#A6DBFF","bold":false,"italic":false}]
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"Thanks, I guess. Do you have any more of that 'wisdom and guidance' to bestow upon me, or did you just come here to boast? ","color":"#77C265","bold":false,"italic":false},{"text":"( *CLICK TO CONTINUE* )","color":"#969C94","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function npc:shade_black/2a"}}]

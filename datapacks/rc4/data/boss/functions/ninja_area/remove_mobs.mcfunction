@@ -1,0 +1,6 @@
+kill @e[tag=!sensei,type=#minecraft:hostile,predicate=!general:biome_plains]
+execute if score #rc4tick ninja_area_phase matches 0 run kill @e[tag=sensei,predicate=!general:biome_plains]
+execute if score #rc4tick ninja_area_phase matches 1 run kill @e[tag=sensei_1,predicate=!general:biome_plains]
+execute if score #rc4tick ninja_area_phase matches 3 run kill @e[tag=sensei_2,predicate=!general:biome_plains]
+execute if score #rc4tick ninja_area_phase matches 5 run kill @e[tag=sensei_3,predicate=!general:biome_plains]
+execute if score #rc4tick ninja_area_phase matches 7 run kill @e[tag=sensei_4,predicate=!general:biome_plains]

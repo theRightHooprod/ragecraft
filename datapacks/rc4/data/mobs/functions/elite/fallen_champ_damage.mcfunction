@@ -1,0 +1,9 @@
+execute at @s run execute as @a[distance=..2] run function mobs:elite/fallen_champ_hit
+execute at @s positioned ~ ~ ~3 run execute as @a[distance=..2] run function mobs:elite/fallen_champ_hit
+execute at @s positioned ~ ~ ~-3 run execute as @a[distance=..2] run function mobs:elite/fallen_champ_hit
+execute at @s positioned ~3 ~ ~ run execute as @a[distance=..2] run function mobs:elite/fallen_champ_hit
+execute at @s positioned ~-3 ~ ~ run execute as @a[distance=..2] run function mobs:elite/fallen_champ_hit
+execute at @s positioned ~2 ~ ~2 run execute as @a[distance=..2] run function mobs:elite/fallen_champ_hit
+execute at @s positioned ~-2 ~ ~2 run execute as @a[distance=..2] run function mobs:elite/fallen_champ_hit
+execute at @s positioned ~2 ~ ~-2 run execute as @a[distance=..2] run function mobs:elite/fallen_champ_hit
+execute at @s positioned ~-2 ~ ~-2 run execute as @a[distance=..2] run function mobs:elite/fallen_champ_hit

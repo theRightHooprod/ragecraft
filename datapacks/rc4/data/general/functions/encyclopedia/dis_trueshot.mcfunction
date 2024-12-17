@@ -1,0 +1,2 @@
+execute if entity @p[nbt={Inventory:[{tag:{dis_trueshot:1b}}]}] run function general:encyclopedia/dis_trueshot2
+execute if entity @p[nbt={Inventory:[{tag:{trueshot:1b}}]}] run function general:encyclopedia/dis_trueshot2

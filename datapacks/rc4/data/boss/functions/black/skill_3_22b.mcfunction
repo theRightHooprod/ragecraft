@@ -1,0 +1,3 @@
+execute as @e[type=end_crystal,tag=arena_1_middle] run data modify entity @s BeamTarget.X set from entity @e[type=marker,tag=black_skill_3_22,limit=1,sort=nearest] Pos[0]
+execute as @e[type=end_crystal,tag=arena_1_middle] run data modify entity @s BeamTarget.Y set from entity @e[type=marker,tag=black_skill_3_22,limit=1,sort=nearest] Pos[1]
+execute as @e[type=end_crystal,tag=arena_1_middle] run data modify entity @s BeamTarget.Z set from entity @e[type=marker,tag=black_skill_3_22,limit=1,sort=nearest] Pos[2]

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"hall_of_heroes\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "events:dialogue/hall_of_heroes"
+  }
+}

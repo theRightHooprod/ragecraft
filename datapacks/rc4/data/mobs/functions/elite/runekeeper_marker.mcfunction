@@ -1,0 +1,1 @@
+execute at @s positioned ~ ~-1 ~ unless entity @e[type=wither_skeleton,tag=runekeeper,distance=..2] run function mobs:elite/runekeeper_dead

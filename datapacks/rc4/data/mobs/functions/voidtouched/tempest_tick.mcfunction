@@ -1,0 +1,1 @@
+execute at @s run particle squid_ink ~ ~0.6 ~ 0.15 0.3 0.15 0.01 1 normal

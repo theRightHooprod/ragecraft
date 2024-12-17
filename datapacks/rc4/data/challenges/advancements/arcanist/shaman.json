@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:splash_potion"
+    },
+    "title": "Shaman",
+    "description": "Hit 1000 enemies with splash potions",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "challenges:arcanist/alchemist",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "challenges:success/shaman"
+  }
+}

@@ -1,0 +1,3 @@
+execute at @s run summon creeper ~ ~ ~ {NoGravity:1b,Silent:1b,Invulnerable:1b,CustomNameVisible:0b,DeathLootTable:"none",PersistenceRequired:1b,NoAI:1b,Health:999f,ExplosionRadius:0b,Tags:["custom","drop_creeper_spawned","invulnerable","no_knockback"],CustomName:'{"text":"Dinnerbone","obfuscated":false}',Attributes:[{Name:"generic.max_health",Base:999},{Name:"generic.follow_range",Base:0},{Name:"generic.movement_speed",Base:0}]}
+
+kill @s

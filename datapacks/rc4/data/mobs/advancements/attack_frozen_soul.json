@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"frozen_soul_top\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mobs:non_elite/frozen_soul_attack"
+  }
+}

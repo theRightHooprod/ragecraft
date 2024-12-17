@@ -1,0 +1,1 @@
+execute at @s run execute as @e[type=bee,distance=..25] at @s run scoreboard players add @e[type=zombie_villager,tag=vt_bee_keeper,distance=..25] mob_animation 1

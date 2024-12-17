@@ -1,0 +1,2 @@
+execute if score #rc4tick riddle_3_check matches 30 run tellraw @a[x=715,y=94,z=-916,dx=24,dy=17,dz=29] {"text":"You have already completed this challenge.","color":"white","bold":false,"italic":false}
+execute unless score #rc4tick riddle_3_check matches 30 run function events:riddle_3/open_door_check

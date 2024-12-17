@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"r1_soccerjman\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "npc:r1_villagers/soccerjman_1"
+  }
+}

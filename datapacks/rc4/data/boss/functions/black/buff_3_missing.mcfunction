@@ -1,0 +1,1 @@
+effect give @e[predicate=general:dimension_abyss,type=#minecraft:hostile,x=188,y=1,z=1610,dx=170,dy=250,dz=140] resistance 3 1 true

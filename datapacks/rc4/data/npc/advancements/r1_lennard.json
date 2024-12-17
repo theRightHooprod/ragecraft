@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"r1_lennard\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "npc:r1_villagers/lennard_1"
+  }
+}

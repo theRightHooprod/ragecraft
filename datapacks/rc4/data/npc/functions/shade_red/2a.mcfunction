@@ -1,0 +1,5 @@
+execute at @s run playsound entity.villager.yes master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[Shade] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"The red crystal is protected by an impenetrable, arcane barrier. There are ten ancient, immortal creatures called 'Crystal Keepers', who are maintaining the barrier with their powerful spell. You might have to get rid of them somehow.","color":"#A6DBFF","bold":false,"italic":false}]
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"I'm sorry, did you just say 'immortal'? ","color":"#77C265","bold":false,"italic":false},{"text":"( *CLICK TO CONTINUE* )","color":"#969C94","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function npc:shade_red/3a"}}]

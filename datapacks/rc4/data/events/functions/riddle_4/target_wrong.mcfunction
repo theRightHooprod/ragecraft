@@ -1,0 +1,1 @@
+function events:riddle_4/fail

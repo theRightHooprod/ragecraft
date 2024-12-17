@@ -1,0 +1,6 @@
+advancement revoke @s only npc:r2_blacksmith_a
+execute at @s run playsound entity.villager.trade master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[Agent Wildfire] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"Hey! You! Please save me! I'm Agent Wildfire, the legendary blacksmith. ","color":"#7DCFFF","bold":false,"italic":false}]
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"Agent Wildfire? You know what ... I'm not even going to question that choice of name. Let's get out of here!           ","color":"#77C265","bold":false,"italic":false},{"text":"( *RESCUE AGENT WILDFIRE* )","color":"light_purple","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/execute unless entity @s[tag=blacksmith_rescued] run function npc:r2_villagers/blacksmith_rescue"}}]

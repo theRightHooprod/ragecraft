@@ -1,0 +1,7 @@
+execute at @s run particle campfire_cosy_smoke ~ ~ ~ 0.3 0.5 0.3 0.01 8 normal
+execute at @s run particle large_smoke ~ ~ ~ 0.3 0.5 0.3 0.01 25 normal
+
+execute at @s run execute at @s run summon skeleton ~ ~ ~ {Health:26f,Tags:["custom","voidtouched_bones"],CustomName:'{"text":"Voidtouched Bones","color":"red","bold":false,"italic":false}',HandItems:[{id:"minecraft:bone",Count:1b,tag:{Enchantments:[{id:"minecraft:knockback",lvl:2s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:24,Operation:0,UUID:[I;-2145082457,472007029,-1259579142,-1301871819],Slot:"mainhand"}]}},{}],HandDropChances:[0.000F,0.000F],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:2630208},Trim:{material:"minecraft:netherite",pattern:"minecraft:silence"}}},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-1893956098,-1045477751,-1871807709,-648945617],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTI1MmMyNWI5YTMwMTAyYThjMGYzYzI2ODE0NTg5NTE1NjY2M2FiZmExMGRjZTMxYjRmY2ZiNTMwNzkyZDA0MSJ9fX0="}]}}}}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],Attributes:[{Name:"generic.max_health",Base:26},{Name:"generic.follow_range",Base:30},{Name:"generic.movement_speed",Base:0.27}]}
+
+execute at @s run summon marker ~ ~ ~ {Tags:["vt_necro_summon_anim"]}
+execute at @s run execute as @e[type=marker,tag=vt_necro_summon_anim] run function mobs:black_elite/vt_necro_summon_anim

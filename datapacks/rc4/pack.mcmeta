@@ -1,0 +1,14 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "description": "rc4 datapack by heliceo"
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "recipes/((ender_chest)|(shield)|(anvil)|(enchanting_table)).*"
+            }
+        ]
+    }
+}

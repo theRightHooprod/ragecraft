@@ -1,0 +1,1 @@
+execute at @s if entity @p[distance=..9] run function mobs:non_elite/harbinger_trans_p

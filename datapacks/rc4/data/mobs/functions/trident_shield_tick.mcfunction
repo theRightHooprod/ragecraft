@@ -1,0 +1,1 @@
+execute at @s if entity @e[type=trident,distance=..6] run function mobs:trident_shield_trigger

@@ -1,0 +1,1 @@
+execute if score #rc4tick tick10 matches 2 run function general:squealy/tick10

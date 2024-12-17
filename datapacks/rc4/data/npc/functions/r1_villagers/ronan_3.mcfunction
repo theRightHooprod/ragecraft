@@ -1,0 +1,3 @@
+execute at @s run playsound entity.villager.yes master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[Ronan] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"I don't know who or what that is. But if you want to go on an adventure, you better visit some of the traders and stock up on supplies. Most who pass the wooden gate don't make it back alive ...","color":"#A6DBFF","bold":false,"italic":false}]

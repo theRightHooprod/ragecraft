@@ -1,0 +1,3 @@
+execute at @s[x=236,y=108,z=161,dx=370,dy=145,dz=357] if score $rng suso.nats matches 1..200 run summon zombie ~ ~ ~ {Tags:["suso.nats.count"]}
+execute at @s[x=236,y=108,z=161,dx=370,dy=145,dz=357] if score $rng suso.nats matches 201..300 run summon creeper ~ ~ ~ {Tags:["suso.nats.count"]}
+execute at @s[x=236,y=108,z=161,dx=370,dy=145,dz=357] if score $rng suso.nats matches 301..350 run summon skeleton ~ ~ ~ {Tags:["suso.nats.count"],HandItems:[{id:"minecraft:bow",Count:1b},{}],HandDropChances:[0.000F,0.085F]}

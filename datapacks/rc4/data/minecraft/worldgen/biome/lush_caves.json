@@ -1,0 +1,24 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "temperature_modifier": "none",
+  "effects": {
+    "music": {
+      "sound": "",
+      "min_delay": 12000,
+      "max_delay": 16000,
+      "replace_current_music": true
+    },
+    "sky_color": 13156094,
+    "fog_color": 14472959,
+    "water_color": 14189278,
+    "water_fog_color": 9316747,
+    "grass_color": 4941832,
+    "foliage_color": 4941832
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [],
+  "has_precipitation": false
+}

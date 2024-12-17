@@ -1,0 +1,2 @@
+execute if score $i src4.graves.var = @s src4.graves.id run data modify storage src4.graves:main working_data set from storage src4.graves:main working_arr[0]
+execute unless score $i src4.graves.var = @s src4.graves.id run function src4.graves:get/search_player2

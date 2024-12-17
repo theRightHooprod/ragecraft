@@ -1,0 +1,1 @@
+execute at @s positioned ~ ~2 ~ unless entity @e[type=guardian,tag=frozen_soul_top,distance=..1] run function mobs:non_elite/frozen_soul_dead

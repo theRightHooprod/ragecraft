@@ -1,0 +1,1 @@
+execute at @s run execute as @e[type=#minecraft:hostile,distance=..2,tag=!spell_immune,nbt=!{HurtTime:10s}] run function skills:spells/spell_14_hit_c

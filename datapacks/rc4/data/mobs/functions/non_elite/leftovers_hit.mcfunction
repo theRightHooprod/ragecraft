@@ -1,0 +1,1 @@
+damage @s 16 mob_attack by @e[type=marker,tag=leftovers_marker,limit=1,sort=nearest]

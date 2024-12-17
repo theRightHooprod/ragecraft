@@ -1,0 +1,2 @@
+execute unless score #rc4tick riddle_4_progress matches 11 run function events:riddle_4/reset_2
+execute if score #rc4tick riddle_4_progress matches 11 run tellraw @a[x=1014,y=73,z=-765,dx=43,dy=27,dz=37] {"text":"You have already completed this challenge.","color":"white","bold":false,"italic":false}

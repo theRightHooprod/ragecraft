@@ -1,0 +1,1 @@
+execute unless score #rc4tick riddle_2_time matches 3600.. run scoreboard players set #rc4tick riddle_2_time 1

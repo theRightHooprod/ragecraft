@@ -1,0 +1,10 @@
+advancement revoke @s only npc:r2_maegos
+execute at @s run playsound entity.villager.no master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+execute unless score #rc4tick villagers_rescued matches 3.. unless entity @e[type=villager,tag=r2_maegos,scores={mob_animation=1..}] run tellraw @s [{"text":"[Maegos] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"STAY AWAY FROM ME! YOU WILL NEVER TAKE MY FLESH! Oh wait ... you are not one of them. What are you doing all the way down here?","color":"#A6DBFF","bold":false,"italic":false}]
+execute unless score #rc4tick villagers_rescued matches 3.. unless entity @e[type=villager,tag=r2_maegos,scores={mob_animation=1..}] run tellraw @s [{"text":""}]
+execute unless score #rc4tick villagers_rescued matches 3.. unless entity @e[type=villager,tag=r2_maegos,scores={mob_animation=1..}] run tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"Um ... I came here to hunt for treasures. Don't worry, I have no interest in your flesh. Now tell me, what is this place? ","color":"#77C265","bold":false,"italic":false},{"text":"( *CLICK TO CONTINUE* )","color":"#969C94","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function npc:r2_villagers/maegos_2"}}]
+
+execute unless score #rc4tick villagers_rescued matches 3.. if entity @e[type=villager,tag=r2_maegos,scores={mob_animation=1}] run tellraw @s [{"text":"[Maegos] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"What are you waiting for!? Rescue them, before it's too late! The slaughterhouse is to the east, across the molten river.","color":"#A6DBFF","bold":false,"italic":false}]
+
+execute if score #rc4tick villagers_rescued matches 3.. run tellraw @s [{"text":"[Maegos] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"Thank you for saving everyone! Cinderkeep is forever in your debt.","color":"#A6DBFF","bold":false,"italic":false}]

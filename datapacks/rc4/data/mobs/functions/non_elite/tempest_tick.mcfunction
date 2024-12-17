@@ -1,0 +1,1 @@
+execute at @s run particle cloud ~ ~0.5 ~ 0.3 0.3 0.3 0.01 1 normal

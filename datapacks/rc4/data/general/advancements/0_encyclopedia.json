@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{encyclopedia:1b}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "general:encyclopedia/0_respawn_explain"
+    }
+  }

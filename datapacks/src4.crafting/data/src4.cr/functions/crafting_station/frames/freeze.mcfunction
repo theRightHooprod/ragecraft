@@ -1,0 +1,1 @@
+data merge entity @s {Fixed:1b,Invulnerable:1b}

@@ -1,0 +1,9 @@
+particle dust 0.549 0.000 0.000 1 681 167 -928 0.2 1 0.2 0.1 10 normal
+particle dust 0.549 0.000 0.000 1 675 167 -912 0.2 1 0.2 0.1 10 normal
+particle dust 0.549 0.000 0.000 1 624 176 -928 0.2 1 0.2 0.1 10 normal
+particle dust 0.549 0.000 0.000 1 611 176 -915 0.2 1 0.2 0.1 10 normal
+particle dust 0.549 0.000 0.000 1 595 176 -925 0.2 1 0.2 0.1 10 normal
+particle dust 0.549 0.000 0.000 1 583 176 -914 0.2 1 0.2 0.1 10 normal
+particle dust 0.549 0.000 0.000 1 727 167 -915 0.2 1 0.2 0.1 10 normal
+particle dust 0.549 0.000 0.000 1 743 167 -930 0.2 1 0.2 0.1 10 normal
+particle dust 0.549 0.000 0.000 1 699 167 -939 0.2 1 0.2 0.1 10 normal

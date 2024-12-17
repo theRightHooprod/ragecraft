@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{dis_upgrade:1}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "general:dis_upgrade"
+    }
+  }

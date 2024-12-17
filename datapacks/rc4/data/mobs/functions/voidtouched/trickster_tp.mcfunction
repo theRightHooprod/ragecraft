@@ -1,0 +1,1 @@
+execute at @s run scoreboard players set @e[type=zombie_villager,tag=trickster_tp,limit=1,sort=nearest] cd -50

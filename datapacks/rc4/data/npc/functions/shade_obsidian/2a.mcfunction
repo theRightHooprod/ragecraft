@@ -1,0 +1,5 @@
+execute at @s run playsound entity.villager.yes master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[Shade] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"The two halves of the key are hidden in two separate locations, somewhere nearby. You need to combine both halves to open the Obsidian Gate. ","color":"#A6DBFF","bold":false,"italic":false}]
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"'Somewhere nearby'? Can you be a little more specific? ","color":"#77C265","bold":false,"italic":false},{"text":"( *CLICK TO CONTINUE* )","color":"#969C94","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function npc:shade_obsidian/3a"}}]

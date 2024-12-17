@@ -1,0 +1,1 @@
+data merge entity @s {Fixed:0b,Invulnerable:0b,Item:{id:"minecraft:air"}}

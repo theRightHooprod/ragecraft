@@ -1,0 +1,99 @@
+summon armor_stand 279 112 -412 {NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["marker_tick","obsidian_t_marker"]}
+summon armor_stand 279 112 -422 {NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Marker:1b,Invisible:1b,Tags:["marker_tick","obsidian_t_marker"]}
+
+playsound item.goat_horn.sound.7 master @a[x=255,y=103,z=-434,dx=32,dy=32,dz=42] ~ ~ ~ 0.5 0.8 0.5
+playsound block.respawn_anchor.set_spawn master @a[x=255,y=103,z=-434,dx=32,dy=32,dz=42] ~ ~ ~ 0.8 0.6 0.8
+playsound entity.warden.emerge master @a[x=255,y=103,z=-434,dx=32,dy=32,dz=42] ~ ~ ~ 0.6 0.7 0.6
+
+particle dragon_breath 287 117 -417 0.5 4 0.5 0.01 600 force
+particle campfire_cosy_smoke 287 117 -417 0.5 4 0.5 0.01 600 force
+
+summon falling_block 287 112 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 113 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 114 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 115 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 116 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 117 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 118 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 119 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 120 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 121 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 122 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 123 -418 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 112 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 113 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 114 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 115 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 116 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 117 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 118 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 119 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 120 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 121 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 122 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 123 -419 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 112 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 113 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 114 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 115 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 116 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 117 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 118 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 119 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 120 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 121 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 122 -420 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 112 -421 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 113 -421 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 114 -421 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 115 -421 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 116 -421 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 117 -421 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 118 -421 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 119 -421 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+summon falling_block 287 120 -421 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,-0.09]}
+
+summon falling_block 287 112 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 113 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 114 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 115 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 116 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 117 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 118 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 119 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 120 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 121 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 122 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 123 -416 {BlockState:{Name:"minecraft:chiseled_polished_blackstone"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 112 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 113 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 114 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 115 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 116 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 117 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 118 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 119 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 120 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 121 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 122 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 123 -415 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 112 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 113 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 114 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 115 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 116 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 117 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 118 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 119 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 120 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 121 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 122 -414 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 112 -413 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 113 -413 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 114 -413 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 115 -413 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 116 -413 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 117 -413 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 118 -413 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 119 -413 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}
+summon falling_block 287 120 -413 {BlockState:{Name:"obsidian"},NoGravity:1b,Silent:1b,Time:500,DropItem:0b,HurtEntities:0b,Motion:[0.0,0.0,0.09]}

@@ -1,0 +1,5 @@
+execute at @s run playsound entity.villager.celebrate master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[Shade] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"Congratulations! I knew you could do it.","color":"#A6DBFF","bold":false,"italic":false}]
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"Thank you, my friend. It was a long and arduous journey. And even though I feel like all of this was just entertainment to you, I must thank you for helping me during my adventure. ","color":"#77C265","bold":false,"italic":false},{"text":"( *CLICK TO CONTINUE* )","color":"#969C94","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function npc:shade_map_end/2a"}}]

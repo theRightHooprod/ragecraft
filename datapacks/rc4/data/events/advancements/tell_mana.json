@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"tell_mana\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "events:map_start/tell_mana"
+  }
+}

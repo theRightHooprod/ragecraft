@@ -1,0 +1,1 @@
+execute if entity @p[gamemode=survival,distance=..18] run function mobs:elite/runekeeper_spawn_4b

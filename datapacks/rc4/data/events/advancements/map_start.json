@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"map_start\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "events:map_start/punch_me"
+  }
+}

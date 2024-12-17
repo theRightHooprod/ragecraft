@@ -1,0 +1,1 @@
+execute unless entity @e[type=end_crystal,x=-328,y=154,z=-663,dx=12,dy=12,dz=12] run function area:watcher_2/crystal_destroy_3

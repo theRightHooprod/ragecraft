@@ -1,0 +1,2 @@
+effect give @e[predicate=general:dimension_abyss,type=#minecraft:hostile,x=188,y=1,z=1610,dx=170,dy=250,dz=140] strength 3 2 true
+effect give @e[predicate=general:dimension_abyss,type=#minecraft:hostile,x=188,y=1,z=1610,dx=170,dy=250,dz=140] speed 3 0 true

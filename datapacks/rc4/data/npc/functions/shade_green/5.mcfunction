@@ -1,0 +1,5 @@
+execute at @s run playsound entity.villager.yes master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[Shade] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"After studying the inner workings of the world for centuries, I have come to the conclusion that fire will melt ice and snow. I'm sure you have managed to find some magical items that can set things on fire, those will surely be handy. ","color":"#A6DBFF","bold":false,"italic":false}]
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"Use fire skills to melt ice and snow, got it ... ","color":"#77C265","bold":false,"italic":false}]

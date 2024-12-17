@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"dark_wisp\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mobs:non_elite/dark_wisp_attack"
+  }
+}

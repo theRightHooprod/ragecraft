@@ -1,0 +1,2 @@
+execute if entity @p[predicate=general:dimension_abyss,x=167,y=140,z=556,dx=45,dy=50,dz=40] run data modify entity @s CustomNameVisible set value 1b
+execute unless entity @p[predicate=general:dimension_abyss,x=167,y=140,z=556,dx=45,dy=50,dz=40] run data modify entity @s CustomNameVisible set value 0b

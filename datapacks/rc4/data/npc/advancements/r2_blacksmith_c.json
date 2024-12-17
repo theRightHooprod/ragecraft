@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"r2_blacksmith_c\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "npc:r2_villagers/blacksmith_c1"
+  }
+}

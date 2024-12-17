@@ -1,0 +1,9 @@
+execute at @s[x=236,y=108,z=200,dx=370,dy=145,dz=320] if score $rng suso.nats matches 1..250 run summon spider ~ ~ ~ {Tags:["suso.nats.count"]}
+execute at @s[x=236,y=108,z=200,dx=370,dy=145,dz=320] if score $rng suso.nats matches 250..600 run summon zombie ~ ~ ~ {Tags:["suso.nats.count"]}
+execute at @s[x=236,y=108,z=200,dx=370,dy=145,dz=320] if score $rng suso.nats matches 601..880 run summon creeper ~ ~ ~ {Tags:["suso.nats.count"]}
+execute at @s[x=236,y=108,z=200,dx=370,dy=145,dz=320] if score $rng suso.nats matches 881..1000 run summon skeleton ~ ~ ~ {Tags:["suso.nats.count"],HandItems:[{id:"minecraft:bow",Count:1b},{}],HandDropChances:[0.000F,0.085F]}
+
+execute at @s[x=236,y=0,z=200,dx=370,dy=107,dz=320] if score $rng suso.nats matches 1..200 run summon spider ~ ~ ~ {Tags:["suso.nats.count"]}
+execute at @s[x=236,y=0,z=200,dx=370,dy=107,dz=320] if score $rng suso.nats matches 201..400 run summon creeper ~ ~ ~ {Tags:["suso.nats.count"]}
+execute at @s[x=236,y=0,z=200,dx=370,dy=107,dz=320] if score $rng suso.nats matches 401..880 run summon skeleton ~ ~ ~ {CanPickUpLoot:0b,Health:16f,Tags:["custom","suso.nats.count"],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-660860932,480396319,-1376559917,1071483972],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ3MzkwMzFmMjFiM2ExNDFjN2MzNDE2ZGUwZDdiMjk3OWFjNzVhOTI1ZTQzOWM2YmIwN2JiMTkwNjY3NTdmIn19fQ=="}]}}}}],Attributes:[{Name:"generic.max_health",Base:16},{Name:"generic.follow_range",Base:24},{Name:"generic.movement_speed",Base:0.23},{Name:"generic.attack_damage",Base:3}]}
+execute at @s[x=236,y=0,z=200,dx=370,dy=107,dz=320] if score $rng suso.nats matches 881..1000 run summon skeleton ~ ~ ~ {Tags:["suso.nats.count"],HandItems:[{id:"minecraft:bow",Count:1b},{}],HandDropChances:[0.000F,0.085F]}

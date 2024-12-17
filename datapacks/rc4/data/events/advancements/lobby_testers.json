@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"lobby_testers\"]}"
+        }
+      }
+    },
+    "b": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"lobby_testers\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["a", "b"]
+  ],
+  "rewards": {
+    "function": "events:map_start/testers"
+  }
+}

@@ -1,0 +1,1 @@
+tp @e[type=armor_stand,tag=fallen_champ_s2,limit=1,sort=nearest] ~ ~ ~

@@ -1,0 +1,12 @@
+title @a[predicate=general:dimension_void] times 0 100 0
+title @a[predicate=general:dimension_void] title {"text":"Alyria says...","color":"dark_purple"}
+title @a[predicate=general:dimension_void] subtitle {"text":"This save is damaged. Reinstall the map!","color":"#b35db3"}
+execute if score $commands suso.mw matches 1 run title @a[predicate=general:dimension_void] subtitle {"text":"Command blocks disabled. Enable them on server properties!","color":"#b35db3"}
+execute if score $misspack suso.mw matches 1 run title @a[predicate=general:dimension_void] subtitle {"text":"Datapacks missing. Reinstall the map!","color":"#FF0000"}
+execute if score $extrapack suso.mw matches 1 run title @a[predicate=general:dimension_void] subtitle {"text":"External datapacks detected. Reinstall the map!","color":"#FF0000"}
+execute if score $help suso.mw matches 1 run title @a[predicate=general:dimension_void] subtitle {"text":"Mods detected. Play on vanilla Minecraft 1.20.1!","color":"#FF0000"}
+execute if score $fabric suso.mw matches 1 run title @a[predicate=general:dimension_void] subtitle {"text":"Fabric modloader detected. Play on vanilla Minecraft 1.20.1!","color":"#b35db3"}
+execute if score $version suso.mw matches 1 run title @a[predicate=general:dimension_void] subtitle {"text":"Incorrect version. Play on vanilla Minecraft 1.20.1!","color":"#FF0000"}
+execute if score $optifine suso.mw matches 1 run title @a[predicate=general:dimension_void] subtitle {"text":"Optifine detected. Play on vanilla Minecraft 1.20.1!","color":"#b35db3"}
+execute if score $spigot suso.mw matches 1 run title @a[predicate=general:dimension_void] subtitle {"text":"Spigot / Paper detected. Play on vanilla Minecraft 1.20.1!","color":"#b35db3"}
+execute if score $forge suso.mw matches 1 run title @a[predicate=general:dimension_void] subtitle {"text":"Forge modloader detected. Play on vanilla Minecraft 1.20.1!","color":"#b35db3"}

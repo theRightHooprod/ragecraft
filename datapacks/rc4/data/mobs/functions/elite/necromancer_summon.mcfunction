@@ -1,0 +1,8 @@
+execute at @s run particle campfire_cosy_smoke ~ ~ ~ 0.3 0.5 0.3 0.01 8 normal
+execute at @s run particle large_smoke ~ ~ ~ 0.3 0.5 0.3 0.01 25 normal
+
+execute at @s unless entity @s[x=-411,y=117,z=-244,dx=119,dy=81,dz=105] run summon skeleton ~ ~ ~ {Health:14f,Tags:["custom","corrupted_bones"],CustomName:'{"text":"Corrupted Bones","color":"red","bold":false,"italic":false}',HandItems:[{id:"minecraft:bone",Count:1b,tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;-352449685,-727561765,-1328468669,-1422081778],Slot:"mainhand"}]}},{}],HandDropChances:[0.000F,0.000F],Attributes:[{Name:"generic.max_health",Base:14},{Name:"generic.follow_range",Base:30},{Name:"generic.movement_speed",Base:0.25}]}
+execute at @s if entity @s[x=-411,y=117,z=-244,dx=119,dy=81,dz=105] run summon skeleton ~ ~ ~ {HasVisualFire:1b,Health:14f,Tags:["custom","corrupted_bones"],CustomName:'{"text":"Corrupted Bones","color":"red","bold":false,"italic":false}',HandItems:[{id:"minecraft:bone",Count:1b,tag:{Enchantments:[{id:"minecraft:fire_aspect",lvl:2s}],AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;706702635,-1541387017,-1773990270,2120641287],Slot:"mainhand"}]}},{}],HandDropChances:[0.000F,0.085F],ActiveEffects:[{Id:12,Amplifier:0b,Duration:-1}],Attributes:[{Name:"generic.max_health",Base:14},{Name:"generic.follow_range",Base:30},{Name:"generic.movement_speed",Base:0.25}]}
+
+execute at @s run summon marker ~ ~ ~ {Tags:["necro_summon_anim"]}
+execute at @s run execute as @e[type=marker,tag=necro_summon_anim] run function mobs:elite/necro_summon_anim

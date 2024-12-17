@@ -1,0 +1,56 @@
+{
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "src4.graves.death": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"src4.graves.grave\"]}"
+        }
+      }
+    },
+    "b": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "src4.graves.death": {
+                  "min": 1
+                }
+              }
+            }
+          }
+        ],
+        "entity": {
+          "type": "minecraft:interaction",
+          "nbt": "{Tags:[\"src4.graves.grave\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["a", "b"]
+  ],
+  "rewards": {
+    "function": "src4.graves:recover/trigger"
+  }
+}

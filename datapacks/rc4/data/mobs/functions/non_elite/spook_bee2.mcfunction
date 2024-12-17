@@ -1,0 +1,1 @@
+data modify entity @s Health set from entity @e[type=stray,tag=spook,limit=1,sort=nearest] Health

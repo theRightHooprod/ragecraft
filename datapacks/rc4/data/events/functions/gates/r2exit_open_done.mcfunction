@@ -1,0 +1,3 @@
+execute in overworld run playsound block.redstone_torch.burnout master @a[x=1058,y=64,z=-869,dx=47,dy=39,dz=68] ~ ~ ~ 0.6 1.5 0.6
+execute in overworld run playsound entity.puffer_fish.blow_out master @a[x=1058,y=64,z=-869,dx=47,dy=39,dz=68] ~ ~ ~ 1 0.6 1
+execute in overworld run tellraw @a[x=1058,y=64,z=-869,dx=47,dy=39,dz=68] {"text":"The gate is already open","color":"red","bold":true,"italic":false}

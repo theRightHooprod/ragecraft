@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"r2_gemcutter_a\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "npc:r2_villagers/gemcutter_a1"
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:water",
+        "minecraft:tube_coral",
+        "minecraft:brain_coral",
+        "minecraft:bubble_coral",
+        "minecraft:fire_coral",
+        "minecraft:horn_coral",
+        "minecraft:sea_pickle",
+        "minecraft:seagrass"
+    ]
+}

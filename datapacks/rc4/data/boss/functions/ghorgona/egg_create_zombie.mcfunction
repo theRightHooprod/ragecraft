@@ -1,0 +1,3 @@
+summon zombie ~ ~ ~ {DeathLootTable:"none",Silent:1b,Health:5f,IsBaby:1b,Tags:["custom","mob_tick","ghorgona_egg"],ArmorItems:[{},{id:"minecraft:dragon_egg",Count:1b},{},{id:"minecraft:dragon_egg",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],ActiveEffects:[{Id:14,Amplifier:0b,Duration:999999,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:5},{Name:"generic.knockback_resistance",Base:10},{Name:"generic.movement_speed",Base:0}]}
+
+kill @s

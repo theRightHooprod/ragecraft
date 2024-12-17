@@ -1,0 +1,2 @@
+execute at @s[tag=!player_found] run scoreboard players set @e[type=zombie,tag=prismarine_mage_see,distance=..25] cd 80
+execute at @s[tag=player_found] run execute as @e[type=zombie,tag=prismarine_mage_see,distance=..25] run function mobs:elite/prismarine_mage_proj

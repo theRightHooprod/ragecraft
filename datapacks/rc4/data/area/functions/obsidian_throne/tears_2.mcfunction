@@ -1,0 +1,2 @@
+execute at @s positioned ^ ^ ^15 run summon armor_stand ~ ~13 ~ {NoGravity:0b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,Tags:["marker_tick","obsidian_tear"]}
+execute at @s positioned ^-7 ^ ^6 run summon armor_stand ~ ~18 ~ {NoGravity:0b,Silent:1b,Invulnerable:1b,Small:1b,Marker:0b,Invisible:1b,Tags:["marker_tick","obsidian_tear"]}

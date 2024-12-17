@@ -1,0 +1,66 @@
+Forceloads chunk 0 0:
+    0 0 0: Marker used for positions and rotations
+
+Killcount is stored in score $total src4.tl.kills
+
+UUIDs:
+    5C400000-0001-0000-0000-000000000000 Marker entity, movable end of the portal
+
+
+The nexus end of the portal is positioned -55 170 278 rotated -90 5. This can be edited in function src4.tl:main
+TODO: Currently, the nexus end of the portal displays a barrier particle. This should be updated to match the build.
+
+
+Getting a pearl item: /function src4.tl:replace_pearl
+    It will replace the current mainhand.
+    This function can be edited to change the pearl item the system gives out. The pearl item needs to be an ender_pearl{src4.tl.item:1}
+    TODO: The item's lore is empty, it's probably a good place to add information about the 50 kill cost.
+
+
+When using the pearl, the following conditions will be checked:
+    - Are we within 15 blocks of the nexus end of the portal?
+    - Are there any enemies in a 10 block radius?
+    - Has our kill counter reached 50?
+    - Are we in a restricted area?
+    - Are we carrying a restricted item?
+If any of these are true, the portal isn't placed and a message is displayed in the actionbar. From this list, lower conditions have a higher
+priority to be displayed in case multiple of them hold.
+
+If none of these are true, the system checks for space in front of the player to place the portal. If it finds the location is not suitable,
+it will display an error in the actionbar and the portal will not be placed. Otherwise, the current portal is moved to this location.
+
+
+When trying to walk through a portal while carrying a restricted item, the portal will look and sound different. The player will be unable
+to use it and a message will be displayed in the actionbar.
+
+
+The messages displayed in the actionbar are tied to numerical IDs. Their contents can be edited from the src4.actionbar datapack, function
+src4.ab:text/set_content
+
+
+Current restricted areas include:
+    - Dimension "void"
+    - Areas in which the player is in adventure mode
+    - "overworld": x=50,y=0,z=-500,dx=140,dy=55,dz=117
+    - "overworld": x=239,y=70,z=-811,dx=104,dy=67,dz=98
+    - "overworld": x=1094,y=0,z=-876,dx=100,dy=67,dz=104
+    - "overworld": x=-346,y=0,z=-387,dx=170,dy=92,dz=150
+    - "abyss": x=158,y=1,z=927,dx=120,dy=254,dz=114
+They can be edited inside function src4.tl:place/check_area
+Players inside these areas will temporarily receive the tag src4.tl.restricted_area after trying to place portals.
+
+Current restricted items include:
+    - Items tagged src4.tl.restricted_item (any value) --> heliceo edit: NEW TAG IS "no_portal_item:1"
+They can be edited inside function src4.tl:place/check_items
+Players carrying these items will temporarily receive the tag src4.tl.restricted_item after trying to place or walk through portals.
+
+
+When placing a portal, the chunk it resides in is forceloaded. If it was forceloaded already, this information is stored. The previous
+portal location is removed from forceload only if it wasn't forceloaded originally.
+
+
+The portal remembers the rotation it was placed in, and players coming out from it will be facing the opposite direction, as to make
+movement flow naturally.
+
+
+A function runs on a really slow schedule clock to ensure the moving end of the portal always has a fire tag, which keeps it lit.

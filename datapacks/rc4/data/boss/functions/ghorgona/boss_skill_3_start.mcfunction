@@ -1,0 +1,2 @@
+execute at @s run summon armor_stand ~ ~0.2 ~4 {NoGravity:1b,Silent:1b,Invulnerable:1b,Small:1b,Invisible:1b,Tags:["marker_tick","ghorgona_orb"],Passengers:[{id:"minecraft:snowball",Tags:["ghorgona_orb"],Item:{id:"minecraft:snowball",Count:1b,tag:{CustomModelData:4}}}],CustomName:'{"text":"Ghorgona","color":"red","bold":false,"italic":false}'}
+tag @s add ghorgona_orb_spawned

@@ -1,0 +1,5 @@
+execute at @s run playsound entity.villager.trade master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[Shade] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"Wait! Don't leave! Don't you want to steal the invaluable treasures that Ghorgona is guarding? I've been watching you slice your way through hordes of monsters, I'm sure you can take her! And if not ... at least it will be entertaining to watch you struggle for your life!","color":"#A6DBFF","bold":false,"italic":false}]
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"Thank you Shade, your concern for my well-being is truly heartwarming. Do you at least have any advice on how to defeat her? ","color":"#77C265","bold":false,"italic":false},{"text":"( *CLICK TO CONTINUE* )","color":"#969C94","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function npc:shade_ghorgona/3"}}]

@@ -1,0 +1,2 @@
+title @a[gamemode=adventure,predicate=general:biome_plains] title {"text":"","color":"yellow","bold":true,"italic":false}
+title @a[gamemode=adventure,predicate=general:biome_plains] subtitle {"text":"THREE MINUTES LEFT","color":"green","bold":false,"italic":false}

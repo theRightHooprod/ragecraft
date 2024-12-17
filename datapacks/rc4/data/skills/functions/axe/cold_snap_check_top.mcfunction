@@ -1,0 +1,1 @@
+execute at @s positioned ~ ~0.5 ~ unless entity @e[type=#minecraft:hostile,scores={cold_snap_target=1..},distance=..0] run function skills:axe/cold_snap_end

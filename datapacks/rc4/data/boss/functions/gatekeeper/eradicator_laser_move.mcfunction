@@ -1,0 +1,1 @@
+execute as @e[type=armor_stand,tag=eradicator_laser,limit=1,sort=nearest] run function boss:gatekeeper/eradicator_laser_move2

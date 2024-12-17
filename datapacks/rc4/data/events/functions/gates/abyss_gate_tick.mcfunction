@@ -1,0 +1,1 @@
+execute unless score #rc4tick soulcrystal_count matches 4.. run particle portal 190 133 338 4.5 4.5 0 0.01 50 normal

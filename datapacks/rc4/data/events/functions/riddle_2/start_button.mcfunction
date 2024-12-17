@@ -1,0 +1,2 @@
+execute unless score #rc4tick riddle_2_time matches 3600.. run scoreboard players set #rc4tick riddle_2_time 2001
+execute if score #rc4tick riddle_2_time matches 3600.. run tellraw @a[x=110,y=154,z=-342,dx=100,dy=101,dz=78] {"text":"You have already completed this challenge.","color":"white","bold":false,"italic":false}

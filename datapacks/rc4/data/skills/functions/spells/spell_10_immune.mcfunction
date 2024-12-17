@@ -1,0 +1,2 @@
+tag @s add spell_10_immune
+execute at @s if entity @e[type=#minecraft:hostile,tag=spell_immune,distance=..5] run tellraw @a[scores={last_spell=10}] [{"text":"[Magic Immunity] ","color":"red","bold":true,"italic":false},{"text":"This enemy is immune to spells and magic potions.","color":"#FF662E","bold":false,"italic":false}]

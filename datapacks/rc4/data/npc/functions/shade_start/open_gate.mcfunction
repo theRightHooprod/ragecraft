@@ -1,0 +1,1 @@
+tag @e[type=armor_stand,tag=shade_start_2] add open_gate_start

@@ -1,0 +1,3 @@
+particle dust 0.161 0.176 1 1 ~ ~ ~ 0 0 0 0 1 force
+scoreboard players remove $this_is_the_last_thing_i_have_to_code_before_release_and_i_am_so_tired src4.graves.var 1
+execute if score $this_is_the_last_thing_i_have_to_code_before_release_and_i_am_so_tired src4.graves.var matches 1.. as 5050C40-0000-0001-CF10-000000000002 facing entity @s eyes positioned ^.05 ^.05 ^.1 unless entity @s[distance=...2] run function src4.graves:totem/recovery/lapis_ray

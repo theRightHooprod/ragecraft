@@ -1,0 +1,14 @@
+scoreboard players operation $displayed_xp_cost src4.cr = $xp_cost src4.cr
+scoreboard players operation $displayed_mat_cost src4.cr = $mat_cost src4.cr
+scoreboard players operation $displayed_mat_type src4.cr = $mat_type src4.cr
+
+execute if score $displayed_mat_type src4.cr matches 0 run data modify block 659 6 508 front_text.messages[3] set value '[{"text":"Repair cost: ","color":"red"},{"text":"f","font":"rc4:s"},{"score":{"name":"$displayed_xp_cost","objective":"src4.cr"}}]'
+execute if score $displayed_mat_type src4.cr matches 1 run data modify block 659 6 508 front_text.messages[3] set value '[{"text":"Repair cost: ","color":"red"},{"text":"g","font":"rc4:s"},{"score":{"name":"$displayed_mat_cost","objective":"src4.cr"}},{"text":" "},{"text":"f","font":"rc4:s"},{"score":{"name":"$displayed_xp_cost","objective":"src4.cr"}}]'
+execute if score $displayed_mat_type src4.cr matches 2 run data modify block 659 6 508 front_text.messages[3] set value '[{"text":"Repair cost: ","color":"red"},{"text":"h","font":"rc4:s"},{"score":{"name":"$displayed_mat_cost","objective":"src4.cr"}},{"text":" "},{"text":"f","font":"rc4:s"},{"score":{"name":"$displayed_xp_cost","objective":"src4.cr"}}]'
+execute if score $displayed_mat_type src4.cr matches 3 run data modify block 659 6 508 front_text.messages[3] set value '[{"text":"Repair cost: ","color":"red"},{"text":"i","font":"rc4:s"},{"score":{"name":"$displayed_mat_cost","objective":"src4.cr"}},{"text":" "},{"text":"f","font":"rc4:s"},{"score":{"name":"$displayed_xp_cost","objective":"src4.cr"}}]'
+execute if score $displayed_mat_type src4.cr matches 4 run data modify block 659 6 508 front_text.messages[3] set value '[{"text":"Repair cost: ","color":"red"},{"text":"j","font":"rc4:s"},{"score":{"name":"$displayed_mat_cost","objective":"src4.cr"}},{"text":" "},{"text":"f","font":"rc4:s"},{"score":{"name":"$displayed_xp_cost","objective":"src4.cr"}}]'
+execute if score $displayed_mat_type src4.cr matches 5 run data modify block 659 6 508 front_text.messages[3] set value '[{"text":"Repair cost: ","color":"red"},{"text":"k","font":"rc4:s"},{"score":{"name":"$displayed_mat_cost","objective":"src4.cr"}},{"text":" "},{"text":"f","font":"rc4:s"},{"score":{"name":"$displayed_xp_cost","objective":"src4.cr"}}]'
+execute if score $displayed_mat_type src4.cr matches 6 run data modify block 659 6 508 front_text.messages[3] set value '[{"text":"Repair cost: ","color":"red"},{"text":"l","font":"rc4:s"},{"score":{"name":"$displayed_mat_cost","objective":"src4.cr"}},{"text":" "},{"text":"f","font":"rc4:s"},{"score":{"name":"$displayed_xp_cost","objective":"src4.cr"}}]'
+
+data modify entity 5050C40-0000-0000-CF10-000000000005 CustomName set from block 659 6 508 front_text.messages[3]
+data modify entity 5050C40-0000-0000-CF10-000000000005 CustomNameVisible set value true

@@ -1,0 +1,3 @@
+execute at @s run playsound entity.villager.yes master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+tellraw @s [{"text":"[Shade] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"I sense a strong connection between the Crystal and some of the powerful voidtouched Elite creatures roaming this realm. Slaying these creatures may cause tiny cracks to appear on the surface of the Crystal. Aim for those cracks with your arrows, and you may be able to hit the exposed core of the Crystal.","color":"#A6DBFF","bold":false,"italic":false}]

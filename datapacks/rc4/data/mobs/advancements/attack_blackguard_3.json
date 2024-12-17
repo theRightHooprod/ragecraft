@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"blackguard_buff_3\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "boss:black/buff_blackguard_3_att"
+  }
+}

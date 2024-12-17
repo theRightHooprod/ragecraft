@@ -1,0 +1,1 @@
+execute at @s positioned ~ ~-1 ~ unless entity @e[type=husk,tag=frost_elemental,distance=..1] run function mobs:non_elite/frost_elemental_dead

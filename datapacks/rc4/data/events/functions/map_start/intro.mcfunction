@@ -1,0 +1,171 @@
+scoreboard players add #rc4tick eviscerate_timer 1
+
+execute if score #rc4tick eviscerate_timer matches 1 run title @a[predicate=general:dimension_void] times 40 400 20
+execute if score #rc4tick eviscerate_timer matches 1 run title @a[predicate=general:dimension_void] title {"text":"ñ","color":"#AA2711","font":"rc4:s"}
+execute if score #rc4tick eviscerate_timer matches 1 run title @a[predicate=general:dimension_void] subtitle {"text":""}
+
+execute if score #rc4tick eviscerate_timer matches 41 run title @a[predicate=general:dimension_void] subtitle {"color":"#950afa","text":"U"}
+execute if score #rc4tick eviscerate_timer matches 42 run title @a[predicate=general:dimension_void] subtitle {"color":"#950afa","text":"Un"}
+execute if score #rc4tick eviscerate_timer matches 43 run title @a[predicate=general:dimension_void] subtitle {"color":"#950afa","text":"Und"}
+execute if score #rc4tick eviscerate_timer matches 44 run title @a[predicate=general:dimension_void] subtitle {"color":"#950afa","text":"Unde"}
+execute if score #rc4tick eviscerate_timer matches 45 run title @a[predicate=general:dimension_void] subtitle {"color":"#950afa","text":"Under"}
+execute if score #rc4tick eviscerate_timer matches 46 run title @a[predicate=general:dimension_void] subtitle {"color":"#950afa","text":"Underw"}
+execute if score #rc4tick eviscerate_timer matches 47 run title @a[predicate=general:dimension_void] subtitle {"color":"#950afa","text":"Underwo"}
+execute if score #rc4tick eviscerate_timer matches 48 run title @a[predicate=general:dimension_void] subtitle {"color":"#950afa","text":"Underwor"}
+execute if score #rc4tick eviscerate_timer matches 49 run title @a[predicate=general:dimension_void] subtitle {"color":"#950afa","text":"Underworl"}
+execute if score #rc4tick eviscerate_timer matches 50 run title @a[predicate=general:dimension_void] subtitle {"color":"#950afa","text":"Underworld"}
+
+execute if score #rc4tick eviscerate_timer matches 90 run title @a[predicate=general:dimension_void] subtitle {"text":""}
+execute if score #rc4tick eviscerate_timer matches 90 as @a[predicate=general:dimension_void] at @s run playsound minecraft:item.trident.thunder master @s ~ ~ ~ 2 1.2
+
+execute if score #rc4tick eviscerate_timer matches 100 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A"}
+execute if score #rc4tick eviscerate_timer matches 101 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A "}
+execute if score #rc4tick eviscerate_timer matches 102 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A m"}
+execute if score #rc4tick eviscerate_timer matches 103 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A ma"}
+execute if score #rc4tick eviscerate_timer matches 104 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map"}
+execute if score #rc4tick eviscerate_timer matches 105 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map "}
+execute if score #rc4tick eviscerate_timer matches 106 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map b"}
+execute if score #rc4tick eviscerate_timer matches 107 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map by"}
+execute if score #rc4tick eviscerate_timer matches 108 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map by "}
+execute if score #rc4tick eviscerate_timer matches 109 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map by h"}
+execute if score #rc4tick eviscerate_timer matches 110 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map by he"}
+execute if score #rc4tick eviscerate_timer matches 111 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map by hel"}
+execute if score #rc4tick eviscerate_timer matches 112 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map by heli"}
+execute if score #rc4tick eviscerate_timer matches 113 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map by helic"}
+execute if score #rc4tick eviscerate_timer matches 114 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map by helice"}
+execute if score #rc4tick eviscerate_timer matches 115 run title @a[predicate=general:dimension_void] subtitle {"color":"#00ba4c","text":"A map by heliceo"}
+
+execute if score #rc4tick eviscerate_timer matches 155 run title @a[predicate=general:dimension_void] subtitle {"text":""}
+execute if score #rc4tick eviscerate_timer matches 155 as @a[predicate=general:dimension_void] at @s run playsound minecraft:item.trident.thunder master @s ~ ~ ~ 2 1.4
+
+execute if score #rc4tick eviscerate_timer matches 165 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"A"}
+execute if score #rc4tick eviscerate_timer matches 166 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Ad"}
+execute if score #rc4tick eviscerate_timer matches 167 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Add"}
+execute if score #rc4tick eviscerate_timer matches 168 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Addi"}
+execute if score #rc4tick eviscerate_timer matches 169 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Addit"}
+execute if score #rc4tick eviscerate_timer matches 170 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additi"}
+execute if score #rc4tick eviscerate_timer matches 171 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additio"}
+execute if score #rc4tick eviscerate_timer matches 172 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Addition"}
+execute if score #rc4tick eviscerate_timer matches 173 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additiona"}
+execute if score #rc4tick eviscerate_timer matches 174 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional"}
+execute if score #rc4tick eviscerate_timer matches 175 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional "}
+execute if score #rc4tick eviscerate_timer matches 176 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional M"}
+execute if score #rc4tick eviscerate_timer matches 177 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Me"}
+execute if score #rc4tick eviscerate_timer matches 178 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mec"}
+execute if score #rc4tick eviscerate_timer matches 179 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mech"}
+execute if score #rc4tick eviscerate_timer matches 180 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mecha"}
+execute if score #rc4tick eviscerate_timer matches 181 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mechan"}
+execute if score #rc4tick eviscerate_timer matches 182 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mechani"}
+execute if score #rc4tick eviscerate_timer matches 183 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mechanic"}
+execute if score #rc4tick eviscerate_timer matches 184 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mechanics"}
+execute if score #rc4tick eviscerate_timer matches 185 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mechanics:"}
+execute if score #rc4tick eviscerate_timer matches 186 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mechanics: "}
+execute if score #rc4tick eviscerate_timer matches 187 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mechanics: S"}
+execute if score #rc4tick eviscerate_timer matches 188 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mechanics: Su"}
+execute if score #rc4tick eviscerate_timer matches 189 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mechanics: Sus"}
+execute if score #rc4tick eviscerate_timer matches 190 run title @a[predicate=general:dimension_void] subtitle {"color":"#00bed4","text":"Additional Mechanics: Suso"}
+
+execute if score #rc4tick eviscerate_timer matches 230 run title @a[predicate=general:dimension_void] subtitle {"text":""}
+execute if score #rc4tick eviscerate_timer matches 230 as @a[predicate=general:dimension_void] at @s run playsound minecraft:item.trident.thunder master @s ~ ~ ~ 2 1.6
+
+execute if score #rc4tick eviscerate_timer matches 240 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"C"}
+execute if score #rc4tick eviscerate_timer matches 241 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Cu"}
+execute if score #rc4tick eviscerate_timer matches 242 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Cus"}
+execute if score #rc4tick eviscerate_timer matches 243 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Cust"}
+execute if score #rc4tick eviscerate_timer matches 244 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custo"}
+execute if score #rc4tick eviscerate_timer matches 245 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom"}
+execute if score #rc4tick eviscerate_timer matches 246 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom "}
+execute if score #rc4tick eviscerate_timer matches 247 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom T"}
+execute if score #rc4tick eviscerate_timer matches 248 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Te"}
+execute if score #rc4tick eviscerate_timer matches 249 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Tex"}
+execute if score #rc4tick eviscerate_timer matches 250 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Text"}
+execute if score #rc4tick eviscerate_timer matches 251 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textu"}
+execute if score #rc4tick eviscerate_timer matches 252 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textur"}
+execute if score #rc4tick eviscerate_timer matches 253 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Texture"}
+execute if score #rc4tick eviscerate_timer matches 254 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures"}
+execute if score #rc4tick eviscerate_timer matches 255 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures:"}
+execute if score #rc4tick eviscerate_timer matches 256 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: "}
+execute if score #rc4tick eviscerate_timer matches 257 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: c"}
+execute if score #rc4tick eviscerate_timer matches 258 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: co"}
+execute if score #rc4tick eviscerate_timer matches 259 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: coc"}
+execute if score #rc4tick eviscerate_timer matches 260 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: coco"}
+execute if score #rc4tick eviscerate_timer matches 261 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: cocoa"}
+execute if score #rc4tick eviscerate_timer matches 262 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: cocoac"}
+execute if score #rc4tick eviscerate_timer matches 263 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: cocoaco"}
+execute if score #rc4tick eviscerate_timer matches 264 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: cocoacol"}
+execute if score #rc4tick eviscerate_timer matches 265 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: cocoacoll"}
+execute if score #rc4tick eviscerate_timer matches 266 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: cocoacolle"}
+execute if score #rc4tick eviscerate_timer matches 267 run title @a[predicate=general:dimension_void] subtitle {"color":"#d4b400","text":"Custom Textures: cocoacollei"}
+
+execute if score #rc4tick eviscerate_timer matches 307 run title @a[predicate=general:dimension_void] subtitle {"text":""}
+execute if score #rc4tick eviscerate_timer matches 307 as @a[predicate=general:dimension_void] at @s run playsound minecraft:item.trident.thunder master @s ~ ~ ~ 2 1.8
+
+execute if score #rc4tick eviscerate_timer matches 317 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"M"}
+execute if score #rc4tick eviscerate_timer matches 318 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Mu"}
+execute if score #rc4tick eviscerate_timer matches 319 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Mus"}
+execute if score #rc4tick eviscerate_timer matches 320 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Musi"}
+execute if score #rc4tick eviscerate_timer matches 321 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music"}
+execute if score #rc4tick eviscerate_timer matches 322 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music "}
+execute if score #rc4tick eviscerate_timer matches 323 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music b"}
+execute if score #rc4tick eviscerate_timer matches 324 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by"}
+execute if score #rc4tick eviscerate_timer matches 325 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by "}
+execute if score #rc4tick eviscerate_timer matches 326 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by E"}
+execute if score #rc4tick eviscerate_timer matches 327 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by En"}
+execute if score #rc4tick eviscerate_timer matches 328 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eni"}
+execute if score #rc4tick eviscerate_timer matches 329 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Enia"}
+execute if score #rc4tick eviscerate_timer matches 330 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah"}
+execute if score #rc4tick eviscerate_timer matches 331 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah,"}
+execute if score #rc4tick eviscerate_timer matches 332 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, "}
+execute if score #rc4tick eviscerate_timer matches 333 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, A"}
+execute if score #rc4tick eviscerate_timer matches 334 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, An"}
+execute if score #rc4tick eviscerate_timer matches 335 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, Ano"}
+execute if score #rc4tick eviscerate_timer matches 336 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, Anon"}
+execute if score #rc4tick eviscerate_timer matches 337 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, Anony"}
+execute if score #rc4tick eviscerate_timer matches 338 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, Anonym"}
+execute if score #rc4tick eviscerate_timer matches 339 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, Anonymo"}
+execute if score #rc4tick eviscerate_timer matches 340 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, Anonymou"}
+execute if score #rc4tick eviscerate_timer matches 341 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, Anonymous"}
+execute if score #rc4tick eviscerate_timer matches 342 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, AnonymousB"}
+execute if score #rc4tick eviscerate_timer matches 343 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, AnonymousBa"}
+execute if score #rc4tick eviscerate_timer matches 344 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, AnonymousBad"}
+execute if score #rc4tick eviscerate_timer matches 345 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, AnonymousBadg"}
+execute if score #rc4tick eviscerate_timer matches 346 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, AnonymousBadge"}
+execute if score #rc4tick eviscerate_timer matches 347 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, AnonymousBadger"}
+execute if score #rc4tick eviscerate_timer matches 348 run title @a[predicate=general:dimension_void] subtitle {"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"}
+execute if score #rc4tick eviscerate_timer matches 349 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ña~~ ~~~¿¡~~~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 350 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñan~ ~~~¿¡~~~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 351 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand ~~~¿¡~~~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 352 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand ~~~¿¡~~~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 353 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand F~~¿¡~~~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 354 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand Fe~¿¡~~~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 355 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand Fes¿¡~~~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 356 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand Fesl¡~~~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 357 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand Fesli~~~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 358 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand Fesliy~~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 359 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand Fesliya~~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 360 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand Fesliyan~ ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 361 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanS ~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 362 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanSt~~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 363 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanStu~¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 364 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanStud¡~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 365 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanStudi~~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 366 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanStudio~¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 367 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanStudios¡~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 368 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanStudios.~~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 369 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanStudios.c~~¬"}]
+execute if score #rc4tick eviscerate_timer matches 370 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanStudios.co~¬"}]
+execute if score #rc4tick eviscerate_timer matches 371 run title @a[predicate=general:dimension_void] subtitle [{"color":"#c902b9","text":"Music by Eniah, AnonymousBadger,"},{"font":"rc4:above_the_below","text":"ñand FesliyanStudios.com¬"}]
+
+execute if score #rc4tick eviscerate_timer matches 415 run title @a[predicate=general:dimension_void] subtitle {"text":""}
+execute if score #rc4tick eviscerate_timer matches 415 as @a[predicate=general:dimension_void] at @s run playsound minecraft:item.trident.thunder master @s ~ ~ ~ 2 2
+
+scoreboard players operation #rc4tick_mod2 eviscerate_timer = #rc4tick eviscerate_timer
+scoreboard players operation #rc4tick_mod2 eviscerate_timer %= #2 eviscerate_timer
+execute if score #rc4tick eviscerate_timer matches 41..50 if score #rc4tick_mod2 eviscerate_timer matches 0 as @a[predicate=general:dimension_void] at @s run playsound block.medium_amethyst_bud.break master @s ~ ~ ~ 0.7 1.3 0.7
+execute if score #rc4tick eviscerate_timer matches 100..115 if score #rc4tick_mod2 eviscerate_timer matches 0 as @a[predicate=general:dimension_void] at @s run playsound block.medium_amethyst_bud.break master @s ~ ~ ~ 0.7 1.3 0.7
+execute if score #rc4tick eviscerate_timer matches 165..190 if score #rc4tick_mod2 eviscerate_timer matches 0 as @a[predicate=general:dimension_void] at @s run playsound block.medium_amethyst_bud.break master @s ~ ~ ~ 0.7 1.3 0.7
+execute if score #rc4tick eviscerate_timer matches 240..267 if score #rc4tick_mod2 eviscerate_timer matches 0 as @a[predicate=general:dimension_void] at @s run playsound block.medium_amethyst_bud.break master @s ~ ~ ~ 0.7 1.3 0.7
+execute if score #rc4tick eviscerate_timer matches 317..371 if score #rc4tick_mod2 eviscerate_timer matches 0 as @a[predicate=general:dimension_void] at @s run playsound block.medium_amethyst_bud.break master @s ~ ~ ~ 0.7 1.3 0.7
+
+execute if score #rc4tick eviscerate_timer matches 470 run function events:map_start/intro_end
+

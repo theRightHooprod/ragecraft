@@ -1,0 +1,1 @@
+execute at @s positioned ~ ~-2 ~ unless entity @e[type=wither_skeleton,tag=sensei_2,distance=..3] run function boss:ninja_area/sensei_2_killed

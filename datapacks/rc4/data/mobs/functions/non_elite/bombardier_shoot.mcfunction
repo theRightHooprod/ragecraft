@@ -1,0 +1,3 @@
+execute at @s unless entity @e[type=zombie,tag=bombardier_proj,distance=..8,scores={cd=..30}] run summon zombie ~ ~-1 ~ {NoGravity:1b,Silent:1b,DeathLootTable:"none",NoAI:1b,CanPickUpLoot:0b,Health:800f,IsBaby:1b,Tags:["custom","mob_tick","bombardier_proj"],ArmorItems:[{},{},{},{id:"minecraft:magma_block",Count:1b}],ArmorDropChances:[0.000F,0.000F,0.000F,0.000F],ActiveEffects:[{Id:12,Amplifier:0b,Duration:999999,ShowParticles:0b},{Id:14,Amplifier:0b,Duration:999999,ShowParticles:0b}],Attributes:[{Name:"generic.max_health",Base:800}]}
+
+kill @s 

@@ -1,0 +1,3 @@
+execute in overworld run playsound block.redstone_torch.burnout master @a[x=148,y=135,z=-782,dx=57,dy=36,dz=37] ~ ~ ~ 0.6 1.5 0.6
+execute in overworld run playsound entity.puffer_fish.blow_out master @a[x=148,y=135,z=-782,dx=57,dy=36,dz=37] ~ ~ ~ 1 0.6 1
+execute in overworld run tellraw @a[x=148,y=135,z=-782,dx=57,dy=36,dz=37] {"text":"You have not placed all required crystals on the Monument yet!","color":"red","bold":true,"italic":false}

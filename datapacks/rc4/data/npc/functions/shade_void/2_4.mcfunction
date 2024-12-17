@@ -1,0 +1,5 @@
+execute at @s run playsound entity.villager.yes master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+execute as @s run tellraw @s [{"text":"[Shade] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"I can use my powers to teleport you to the arena right across from here. To acess the other two arenas, you must find the other two portals in the underworld.","color":"#A6DBFF","bold":false,"italic":false}]
+tellraw @s [{"text":""}]
+execute as @s run tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"How convenient! You said I must destroy the void spheres. Any idea how I can do that? Do I just hit it with my sword and hope it breaks? ","color":"#77C265","bold":false,"italic":false},{"text":"( *CLICK TO CONTINUE* )","color":"#969C94","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function npc:shade_void/2_5"}}]

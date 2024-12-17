@@ -1,0 +1,17 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "nbt": "{dis_unique:1}"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "general:dis_unique"
+    }
+  }

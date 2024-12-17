@@ -1,0 +1,8 @@
+execute at @s if block ~ ~0.7 ~ #minecraft:nonsolid unless block ~ ~-0.2 ~ #minecraft:nonsolid run tp @s ~ ~-0.1 ~
+execute at @s unless block ~ ~0.7 ~ #minecraft:nonsolid run data modify entity @s NoAI set value 1b
+execute at @s run particle dust 0.118 0.322 0.110 1 ~ ~0.7 ~ 0.3 0.2 0.3 0.01 3 normal
+execute at @s run particle totem_of_undying ~ ~0.8 ~ 0.3 0.1 0.3 0.01 1 normal
+execute at @s[scores={cd=120..}] run particle sneeze ~ ~0.8 ~ 0.2 0.1 0.2 0.02 2 normal
+
+scoreboard players add @s cd 1
+execute at @s[scores={cd=180..}] run function mobs:non_elite/doomfang_egg_spawn

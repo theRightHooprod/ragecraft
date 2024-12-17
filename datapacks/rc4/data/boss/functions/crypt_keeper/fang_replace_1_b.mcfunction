@@ -1,0 +1,6 @@
+execute at @s if entity @p[distance=3..5] run playsound entity.zombie.infect master @a[distance=..20] ~ ~ ~ 0.7 1 0.7
+execute at @s if entity @p[distance=3..5] run playsound block.beehive.enter master @a[distance=..20] ~ ~ ~ 0.7 0.6 0.7
+execute at @s if entity @p[distance=3..5] run playsound entity.zombie.infect master @a[distance=..9] ~ ~ ~ 0.4 1 0.4
+execute at @s if entity @p[distance=3..5] run playsound block.beehive.enter master @a[distance=..9] ~ ~ ~ 0.4 0.6 0.4
+
+execute at @s if entity @p[distance=3..5] unless entity @e[type=skeleton,tag=corrupted_bones_x,distance=..2] run summon skeleton ~ ~-1.5 ~ {Health:10f,Tags:["custom","mob_tick","corrupted_bones_x"],CustomName:'{"text":"Corrupted Bones","color":"red","bold":false,"italic":false}',HandItems:[{id:"minecraft:bone",Count:1b,tag:{AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;-352449685,-727561765,-1328468669,-1422081778],Slot:"mainhand"}]}},{}],HandDropChances:[0.000F,0.000F],Attributes:[{Name:"generic.max_health",Base:10},{Name:"generic.follow_range",Base:30},{Name:"generic.movement_speed",Base:0.25}]}

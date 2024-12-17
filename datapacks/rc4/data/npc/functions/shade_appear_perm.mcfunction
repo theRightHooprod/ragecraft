@@ -1,0 +1,1 @@
+execute as @s[tag=shade_start,tag=!shade_start_done] run function npc:shade_start/start

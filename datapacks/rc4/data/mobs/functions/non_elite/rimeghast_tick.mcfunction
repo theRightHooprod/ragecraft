@@ -1,0 +1,1 @@
+execute at @s run execute as @e[type=fireball,distance=..5] run function mobs:non_elite/rimeghast_shoot

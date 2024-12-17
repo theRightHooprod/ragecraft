@@ -1,0 +1,43 @@
+{
+  "effects": {
+    "music": {
+      "sound": "",
+      "min_delay": 12000,
+      "max_delay": 16000,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:spore_blossom_air"
+      },
+      "probability": 0.03
+    },
+    "sky_color": 3488059,
+    "fog_color": 3488059,
+    "water_color": 2641562,
+    "water_fog_color": 1710642,
+    "grass_color": 4941832,
+    "foliage_color": 4941832,
+    "mood_sound": {
+      "sound": "ambient.basalt_deltas.mood",
+      "tick_delay": 9000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.soul_sand_valley.additions",
+      "tick_chance": 0.005
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "temperature": 2,
+  "downfall": 0,
+  "has_precipitation": false
+}

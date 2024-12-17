@@ -1,0 +1,1 @@
+tp @e[type=armor_stand,tag=ghorgona_orb,limit=1,sort=nearest] ~ ~ ~

@@ -1,0 +1,12 @@
+execute positioned 1149 38 -837 run function boss:gatekeeper/summon_lightning
+execute positioned 1156 38 -835 run function boss:gatekeeper/summon_lightning
+execute positioned 1160 38 -831 run function boss:gatekeeper/summon_lightning
+execute positioned 1162 38 -824 run function boss:gatekeeper/summon_lightning
+execute positioned 1160 38 -817 run function boss:gatekeeper/summon_lightning
+execute positioned 1156 38 -813 run function boss:gatekeeper/summon_lightning
+execute positioned 1149 38 -811 run function boss:gatekeeper/summon_lightning
+execute positioned 1142 38 -813 run function boss:gatekeeper/summon_lightning
+execute positioned 1138 38 -817 run function boss:gatekeeper/summon_lightning
+execute positioned 1136 38 -824 run function boss:gatekeeper/summon_lightning
+execute positioned 1138 38 -831 run function boss:gatekeeper/summon_lightning
+execute positioned 1142 38 -835 run function boss:gatekeeper/summon_lightning

@@ -1,0 +1,6 @@
+execute at @s run playsound entity.villager.trade master @a[distance=..12] ~ ~ ~ 0.7 1 0.7
+tellraw @s [{"text":""}]
+execute as @s run tellraw @s [{"text":"[Shade] ","color":"#7DCFFF","bold":true,"italic":false},{"text":"Enough talk. Are you ready to face the arena?","color":"#A6DBFF","bold":false,"italic":false}]
+tellraw @s [{"text":""}]
+execute as @s run tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"I don't think I'm ready yet. Let me come back later. ","color":"#77C265","bold":false,"italic":false},{"text":"( *CLICK TO CONTINUE* )","color":"#969C94","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function npc:shade_void/3_8"}}]
+execute as @s run tellraw @s [{"text":"[","color":"#118708","bold":true,"italic":false},{"selector":"@s","color":"#118708","bold":true,"italic":false},{"text":"] ","color":"#118708","bold":true,"italic":false},{"text":"I'm ready. Let the battle commence! ","color":"#77C265","bold":false,"italic":false},{"text":"( *TELEPORT INTO ARENA* )","color":"blue","bold":true,"italic":false,"clickEvent":{"action":"run_command","value":"/function boss:void_arena/3_start"}}]

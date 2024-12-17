@@ -1,0 +1,38 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:chest",
+              "properties": {}
+            },
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "position": {
+                  "x": {
+                    "min": 144,
+                    "max": 154
+                  },
+                  "y": {
+                    "min": 148,
+                    "max": 158
+                  },
+                  "z": {
+                    "min": -133,
+                    "max": -123
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "events:explain_chains"
+    }
+  }

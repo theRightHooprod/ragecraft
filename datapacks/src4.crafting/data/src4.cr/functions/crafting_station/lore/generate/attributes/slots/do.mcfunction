@@ -1,0 +1,10 @@
+execute if data storage src4.cr:main TempSlotAttributes[{AttributeName:"minecraft:generic.attack_damage"}] run function src4.cr:crafting_station/lore/generate/attributes/attack_damage
+execute if data storage src4.cr:main TempSlotAttributes[{AttributeName:"minecraft:generic.attack_speed"}] run function src4.cr:crafting_station/lore/generate/attributes/attack_speed
+execute if data storage src4.cr:main TempSlotAttributes[{AttributeName:"minecraft:generic.armor"}] run function src4.cr:crafting_station/lore/generate/attributes/armor
+execute if data storage src4.cr:main TempSlotAttributes[{AttributeName:"minecraft:generic.armor_toughness"}] run function src4.cr:crafting_station/lore/generate/attributes/armor_toughness
+execute if data storage src4.cr:main TempSlotAttributes[{AttributeName:"minecraft:generic.knockback_resistance"}] run function src4.cr:crafting_station/lore/generate/attributes/knockback_resistance
+execute if data storage src4.cr:main TempSlotAttributes[{AttributeName:"minecraft:generic.max_health"}] run function src4.cr:crafting_station/lore/generate/attributes/max_health
+execute if data storage src4.cr:main TempSlotAttributes[{AttributeName:"minecraft:generic.movement_speed"}] run function src4.cr:crafting_station/lore/generate/attributes/movement_speed
+execute if data storage src4.cr:main TempSlotAttributes[{AttributeName:"minecraft:generic.attack_knockback"}] run function src4.cr:crafting_station/lore/generate/attributes/attack_knockback
+execute if data storage src4.cr:main TempSlotAttributes[{AttributeName:"minecraft:generic.follow_range"}] run function src4.cr:crafting_station/lore/generate/attributes/follow_range
+execute if data storage src4.cr:main TempSlotAttributes[{AttributeName:"minecraft:generic.luck"}] run function src4.cr:crafting_station/lore/generate/attributes/luck

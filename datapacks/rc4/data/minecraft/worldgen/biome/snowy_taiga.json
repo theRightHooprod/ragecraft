@@ -1,0 +1,36 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "effects": {
+    "music": {
+      "sound": "",
+      "min_delay": 12000,
+      "max_delay": 16000,
+      "replace_current_music": true
+    },
+    "sky_color": 14412031,
+    "fog_color": 14740735,
+    "water_color": 8169469,
+    "water_fog_color": 1908112,
+    "grass_color": 16777215,
+    "foliage_color": 16777215,
+    "ambient_sound": "ambient.nether_wastes.loop",
+    "mood_sound": {
+      "sound": "ambient.nether_wastes.mood",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "particle": {
+      "options": {
+        "type": "snowflake"
+      },
+      "probability": 0.003
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [],
+  "has_precipitation": false
+}

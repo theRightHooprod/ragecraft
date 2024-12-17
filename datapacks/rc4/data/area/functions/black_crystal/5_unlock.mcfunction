@@ -1,0 +1,1 @@
+execute unless score #black_buff_5 cd matches 1.. run function area:black_crystal/5_unlock_x

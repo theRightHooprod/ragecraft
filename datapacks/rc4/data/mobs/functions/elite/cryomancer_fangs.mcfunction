@@ -1,0 +1,1 @@
+execute at @s if entity @p[distance=..5] run function mobs:elite/cryomancer_snow

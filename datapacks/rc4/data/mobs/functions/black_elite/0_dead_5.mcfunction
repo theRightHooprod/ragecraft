@@ -1,0 +1,3 @@
+execute in abyss positioned 285 84 1668 unless entity @e[type=marker,tag=crystal_crack,distance=..1] run summon marker 285 84 1668 {Tags:["marker_tick","black_skill_marker","crystal_crack","crystal_crack_1"]}
+execute in abyss positioned 274 82 1670 unless entity @e[type=marker,tag=crystal_crack,distance=..1] run summon marker 274 82 1670 {Tags:["marker_tick","black_skill_marker","crystal_crack","crystal_crack_2"]}
+execute in abyss positioned 279 84 1676 unless entity @e[type=marker,tag=crystal_crack,distance=..1] run summon marker 279 84 1676 {Tags:["marker_tick","black_skill_marker","crystal_crack","crystal_crack_3"]}

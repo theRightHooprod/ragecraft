@@ -1,0 +1,44 @@
+{
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "music": {
+      "sound": "",
+      "min_delay": 12000,
+      "max_delay": 16000,
+      "replace_current_music": true
+    },
+    "sky_color": 1380122,
+    "fog_color": 1380122,
+    "water_color": 984860,
+    "water_fog_color": 984860,
+    "grass_color": 2166830,
+    "foliage_color": 2166830,
+    "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+    "mood_sound": {
+      "sound": "ambient.crimson_forest.mood",
+      "tick_delay": 4000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.warped_forest.additions",
+      "tick_chance": 0.01
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.03
+    }
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:nether_cave"
+    ]
+  },
+  "features": [],
+  "has_precipitation": false
+}

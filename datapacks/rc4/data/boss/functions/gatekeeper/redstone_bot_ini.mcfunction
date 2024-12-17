@@ -1,0 +1,1 @@
+execute as @e[type=wither_skeleton,tag=redstone_bot,distance=..3] run function boss:gatekeeper/redstone_bot_ini2

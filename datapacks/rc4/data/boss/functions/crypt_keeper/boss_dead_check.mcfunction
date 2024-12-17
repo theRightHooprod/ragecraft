@@ -1,0 +1,1 @@
+execute if entity @p[x=-222,y=0,z=-332,dx=45,dy=92,dz=47] unless entity @e[type=evoker,tag=crypt_keeper] run function boss:crypt_keeper/boss_dead

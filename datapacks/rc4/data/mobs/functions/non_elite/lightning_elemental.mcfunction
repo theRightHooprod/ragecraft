@@ -1,0 +1,1 @@
+execute at @s run particle electric_spark ~ ~0.2 ~ 0.3 0.6 0.3 0.01 4 normal

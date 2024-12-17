@@ -1,0 +1,1 @@
+execute at @s run particle portal ~ ~1 ~ 0.3 0.5 0.3 0.05 2 normal

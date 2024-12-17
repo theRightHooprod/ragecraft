@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:villager",
+          "nbt": "{Tags:[\"black_buff_3\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "area:black_crystal/3_tell"
+  }
+}

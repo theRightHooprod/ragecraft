@@ -1,0 +1,1 @@
+execute unless entity @e[type=piglin_brute,tag=vt_butcher,distance=..10] run kill @s

@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{src4.tl.item:1}"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "src4.tl:moved_pearl"
+    }
+}

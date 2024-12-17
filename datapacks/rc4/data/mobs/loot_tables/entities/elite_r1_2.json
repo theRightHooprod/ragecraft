@@ -1,0 +1,97 @@
+{
+    "type": "entity",
+    "pools": [
+      {
+        "rolls": 18,
+        "bonus_rolls": 6,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight":1,
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 0.0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 0.0
+                },
+                "function": "minecraft:looting_enchant"
+              }
+            ],
+            "name": "minecraft:cooked_beef"
+          },
+          {
+            "type": "empty",
+            "weight": 1
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight":3,
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 0.0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 0.0
+                },
+                "function": "minecraft:looting_enchant"
+              }
+            ],
+            "name": "minecraft:experience_bottle"
+          },
+          {
+            "type": "empty",
+            "weight": 1
+          },
+
+          {
+            "type": "minecraft:item",
+            "weight":1,
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 0.0
+                },
+                "function": "minecraft:set_count"
+              },
+              {
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1.0,
+                  "min": 0.0
+                },
+                "function": "minecraft:looting_enchant"
+              }
+            ],
+            "name": "minecraft:lapis_lazuli"
+          },
+          {
+            "type": "empty",
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  }

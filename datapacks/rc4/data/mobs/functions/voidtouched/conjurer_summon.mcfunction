@@ -1,0 +1,4 @@
+execute at @s run particle dust 0.565 0.235 0.58 1 ~ ~0.2 ~ 0.4 0.3 0.4 0.05 80 normal
+execute at @s run particle squid_ink ~ ~0.2 ~ 0.2 0.2 0.2 0.01 5 normal
+
+execute at @s run summon vex ~ ~ ~ {Health:10f,LifeTicks:600,Tags:["custom","mob_tick","void_imp"],CustomName:'{"text":"Void Imp","color":"red","bold":false,"italic":false}',HandItems:[{id:"minecraft:netherite_axe",Count:1b,tag:{CustomModelData:205,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:30,Operation:0,UUID:[I;1846510894,1436501736,-1158121325,-1744791134],Slot:"mainhand"}]}},{id:"minecraft:netherite_axe",Count:1b,tag:{CustomModelData:205}}],HandDropChances:[0.000F,0.000F],Attributes:[{Name:"generic.max_health",Base:10},{Name:"generic.follow_range",Base:40}]}

@@ -1,0 +1,6 @@
+execute if score $held_item src4.cr matches 1 run data modify storage src4.cr:main construct_attribute.Slot set value "head"
+execute if score $held_item src4.cr matches 2 run data modify storage src4.cr:main construct_attribute.Slot set value "chest"
+execute if score $held_item src4.cr matches 3 run data modify storage src4.cr:main construct_attribute.Slot set value "legs"
+execute if score $held_item src4.cr matches 4 run data modify storage src4.cr:main construct_attribute.Slot set value "feet"
+execute if score $held_item src4.cr matches 5 run data modify storage src4.cr:main construct_attribute.Slot set value "offhand"
+execute if score $held_item src4.cr matches 6.. run data modify storage src4.cr:main construct_attribute.Slot set value "mainhand"

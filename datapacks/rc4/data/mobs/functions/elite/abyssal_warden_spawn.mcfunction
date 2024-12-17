@@ -1,0 +1,1 @@
+execute at @s if entity @p[distance=..20,gamemode=survival] run function mobs:elite/abyssal_warden_spawn2

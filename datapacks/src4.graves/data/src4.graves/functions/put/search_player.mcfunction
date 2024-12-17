@@ -1,0 +1,2 @@
+execute if score $i src4.graves.var = @s src4.graves.id run function src4.graves:put/found_player
+execute unless score $i src4.graves.var = @s src4.graves.id run function src4.graves:put/search_player2

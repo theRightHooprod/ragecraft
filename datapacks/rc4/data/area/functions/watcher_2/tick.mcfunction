@@ -1,0 +1,1 @@
+execute unless score #rc4tick crystal_8_placed matches 1.. run function area:watcher_2/tick_active

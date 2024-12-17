@@ -1,0 +1,1 @@
+execute at @s run execute as @e[type=#minecraft:hostile,distance=..4] run function skills:leggings/witchcraft_debuff_2

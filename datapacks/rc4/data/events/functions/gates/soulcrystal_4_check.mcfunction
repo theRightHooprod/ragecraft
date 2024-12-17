@@ -1,0 +1,1 @@
+execute in abyss if entity @e[type=marker,tag=soul_crystal,x=198,y=1,z=240,dx=69,dy=254,dz=74] unless entity @e[type=end_crystal,tag=soul_crystal,x=198,y=1,z=240,dx=69,dy=254,dz=74] run function events:gates/soulcrystal_4_done

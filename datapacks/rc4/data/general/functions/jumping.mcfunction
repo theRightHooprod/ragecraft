@@ -1,0 +1,1 @@
+execute as @s[predicate=skills:xin_blessing] run function skills:chest/xin_blessing

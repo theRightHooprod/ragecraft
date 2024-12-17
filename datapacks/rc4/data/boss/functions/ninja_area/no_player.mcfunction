@@ -1,0 +1,2 @@
+execute unless score #rc4tick ninja_area_phase matches 9 run scoreboard players set #rc4tick ninja_area_cd 0
+execute unless score #rc4tick ninja_area_phase matches 9 run scoreboard players set #rc4tick ninja_area_phase 0

@@ -1,0 +1,2 @@
+particle dripping_lava ~ ~ ~ 0 0 0 0 1 force
+execute as 5050C40-0000-0001-CF10-000000000002 facing entity @s eyes positioned ^.05 ^.02 ^.1 positioned ~ ~.05 ~ unless entity @s[distance=...5] run function src4.graves:totem/recovery/fire_ray

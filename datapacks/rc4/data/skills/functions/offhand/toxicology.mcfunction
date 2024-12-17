@@ -1,0 +1,2 @@
+execute at @s[advancements={skills:tridenthit=false}] run execute as @e[type=#minecraft:hostile,tag=!no_target,distance=..6,nbt={HurtTime:10s}] at @s run function skills:offhand/toxicology_hit
+execute at @s[advancements={skills:tridenthit=true}] run execute as @e[type=#minecraft:hostile,tag=!no_target,distance=..50,nbt={HurtTime:10s}] at @s run function skills:offhand/toxicology_hit

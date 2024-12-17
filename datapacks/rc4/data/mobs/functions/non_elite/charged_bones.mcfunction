@@ -1,0 +1,1 @@
+execute at @s positioned ~ ~-1 ~ unless entity @e[type=skeleton,tag=charged_bones,distance=..1] run function mobs:non_elite/charged_bones_dead

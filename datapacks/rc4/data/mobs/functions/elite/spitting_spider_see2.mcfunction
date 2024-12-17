@@ -1,0 +1,2 @@
+execute at @s[tag=!player_found] run scoreboard players set @e[type=spider,tag=spitting_spider_see,distance=..20,scores={cd=120}] cd 100
+execute at @s[tag=player_found] run execute as @e[type=spider,tag=spitting_spider_see,distance=..20,scores={cd=120}] run function mobs:elite/spitting_spider_spit

@@ -1,0 +1,3 @@
+execute in abyss positioned 265 81 1670 unless entity @e[type=guardian,distance=..2] run scoreboard players set #black_skill_3_31 cd 1
+execute in abyss positioned 289 76 1685 unless entity @e[type=guardian,distance=..2] run scoreboard players set #black_skill_3_32 cd 1
+execute in abyss positioned 285 75 1659 unless entity @e[type=guardian,distance=..2] run scoreboard players set #black_skill_3_33 cd 1

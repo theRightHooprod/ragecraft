@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"phantasm\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mobs:non_elite/phantasm_attack"
+  }
+}

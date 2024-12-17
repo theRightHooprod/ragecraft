@@ -1,0 +1,2 @@
+execute at @s[tag=!player_found] run scoreboard players set @e[type=stray,tag=herald_l_see,distance=..25] cd 60
+execute at @s[tag=player_found] run scoreboard players set @e[type=stray,tag=herald_l_see,distance=..25] cd -50
