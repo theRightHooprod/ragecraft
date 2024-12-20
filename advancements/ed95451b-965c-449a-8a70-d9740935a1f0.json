@@ -35,25 +35,19 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_carpet": {
-    "criteria": {
-      "has_black_wool": "2024-12-02 00:55:22 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
       "has_rose_bush": "2024-12-02 00:20:00 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_bed": {
+  "minecraft:recipes/decorations/blue_bed": {
     "criteria": {
-      "has_black_wool": "2024-12-02 00:55:22 -0600"
+      "has_blue_wool": "2024-12-02 00:22:28 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_bed": {
+  "minecraft:recipes/decorations/blue_carpet": {
     "criteria": {
       "has_blue_wool": "2024-12-02 00:22:28 -0600"
     },
@@ -65,9 +59,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_carpet": {
+  "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
-      "has_blue_wool": "2024-12-02 00:22:28 -0600"
+      "has_black_wool": "2024-12-02 00:55:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-12-02 00:55:22 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2024-12-18 23:34:51 -0600"
+    },
+    "done": true
+  },
+  "challenges:arcanist/alchemist": {
+    "criteria": {
+      "requirement": "2024-12-19 00:39:30 -0600"
     },
     "done": true
   },
