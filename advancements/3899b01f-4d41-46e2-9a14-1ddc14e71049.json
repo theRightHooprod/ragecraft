@@ -5,21 +5,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_carpet": {
-    "criteria": {
-      "has_black_wool": "2024-12-02 00:52:09 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/red_carpet": {
     "criteria": {
       "has_red_wool": "2024-12-02 00:06:40 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/black_bed": {
+  "minecraft:recipes/decorations/red_bed": {
     "criteria": {
-      "has_black_wool": "2024-12-02 00:52:09 -0600"
+      "has_red_wool": "2024-12-02 00:06:40 -0600"
     },
     "done": true
   },
@@ -29,9 +23,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+  "minecraft:recipes/decorations/blue_carpet": {
     "criteria": {
-      "has_polished_blackstone_bricks": "2024-12-02 01:37:38 -0600"
+      "has_blue_wool": "2024-12-02 00:18:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-12-02 00:52:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-12-02 00:52:09 -0600"
     },
     "done": true
   },
@@ -41,15 +47,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blue_carpet": {
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
-      "has_blue_wool": "2024-12-02 00:18:10 -0600"
+      "has_polished_blackstone_bricks": "2024-12-02 01:37:38 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/red_bed": {
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
     "criteria": {
-      "has_red_wool": "2024-12-02 00:06:40 -0600"
+      "has_rose_bush": "2024-12-19 00:14:42 -0600"
     },
     "done": true
   },
