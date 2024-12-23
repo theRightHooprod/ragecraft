@@ -113,5 +113,23 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2024-12-23 01:09:35 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2024-12-23 01:12:10 -0600"
+    },
+    "done": true
+  },
+  "challenges:arcanist/shaman": {
+    "criteria": {
+      "requirement": "2024-12-23 00:48:52 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
