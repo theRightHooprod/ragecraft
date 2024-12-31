@@ -1,0 +1,45 @@
+{
+  "challenges:slayer/crusader": {
+    "criteria": {
+      "requirement": "2024-12-31 00:18:04 -0600"
+    },
+    "done": true
+  },
+  "challenges:slayer/challenger": {
+    "criteria": {
+      "requirement": "2024-12-31 01:44:43 -0600"
+    },
+    "done": true
+  },
+  "mobs:taunt_trickster": {
+    "criteria": {
+      "requirement": "2024-12-30 23:52:40 -0600"
+    },
+    "done": true
+  },
+  "skills:rangedkill_x": {
+    "criteria": {
+      "requirement": "2024-12-31 00:15:01 -0600"
+    },
+    "done": true
+  },
+  "general:0_unique_explain": {
+    "criteria": {
+      "requirement": "2024-12-31 01:54:57 -0600"
+    },
+    "done": true
+  },
+  "challenges:arcanist/alchemist": {
+    "criteria": {
+      "requirement": "2024-12-30 23:51:40 -0600"
+    },
+    "done": true
+  },
+  "challenges:arcanist/shaman": {
+    "criteria": {
+      "requirement": "2024-12-30 23:51:40 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

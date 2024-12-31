@@ -1,0 +1,21 @@
+{
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2024-12-31 01:44:37 -0600"
+    },
+    "done": true
+  },
+  "events:explain_chains": {
+    "criteria": {
+      "requirement": "2024-12-31 00:58:40 -0600"
+    },
+    "done": true
+  },
+  "skills:rangedkill_x": {
+    "criteria": {
+      "requirement": "2024-12-31 00:33:14 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

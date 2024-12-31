@@ -59,9 +59,9 @@
     },
     "done": true
   },
-  "challenges:slayer/crusader": {
+  "challenges:arcanist/shaman": {
     "criteria": {
-      "requirement": "2024-12-23 02:02:42 -0600"
+      "requirement": "2024-12-23 00:37:51 -0600"
     },
     "done": true
   },
@@ -71,9 +71,9 @@
     },
     "done": true
   },
-  "challenges:arcanist/shaman": {
+  "challenges:slayer/crusader": {
     "criteria": {
-      "requirement": "2024-12-23 00:37:51 -0600"
+      "requirement": "2024-12-23 02:02:42 -0600"
     },
     "done": true
   },
