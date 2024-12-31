@@ -1,0 +1,15 @@
+{
+  "challenges:explorer/treasure_hunter": {
+    "criteria": {
+      "requirement": "2024-12-30 23:51:25 -0600"
+    },
+    "done": true
+  },
+  "challenges:arcanist/alchemist": {
+    "criteria": {
+      "requirement": "2024-12-30 23:51:27 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
