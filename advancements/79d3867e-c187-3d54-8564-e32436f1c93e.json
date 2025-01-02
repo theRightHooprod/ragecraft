@@ -5,15 +5,33 @@
     },
     "done": true
   },
+  "skills:rangedkill_x": {
+    "criteria": {
+      "requirement": "2024-12-31 00:31:39 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_stone_bricks": "2024-12-31 01:36:28 -0600"
     },
     "done": true
   },
-  "skills:rangedkill_x": {
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
     "criteria": {
-      "requirement": "2024-12-31 00:31:39 -0600"
+      "has_blue_orchid": "2025-01-01 23:08:32 -0600"
+    },
+    "done": true
+  },
+  "general:0_upgrade_explain": {
+    "criteria": {
+      "requirement": "2025-01-01 23:08:17 -0600"
+    },
+    "done": true
+  },
+  "general:0_unique_explain": {
+    "criteria": {
+      "requirement": "2025-01-01 23:37:23 -0600"
     },
     "done": true
   },

@@ -1,7 +1,7 @@
 {
-  "minecraft:recipes/decorations/stone_brick_wall": {
+  "skills:rangedkill_x": {
     "criteria": {
-      "has_stone_bricks": "2024-12-31 01:44:37 -0600"
+      "requirement": "2024-12-31 00:33:14 -0600"
     },
     "done": true
   },
@@ -11,9 +11,9 @@
     },
     "done": true
   },
-  "skills:rangedkill_x": {
+  "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
-      "requirement": "2024-12-31 00:33:14 -0600"
+      "has_stone_bricks": "2024-12-31 01:44:37 -0600"
     },
     "done": true
   },
