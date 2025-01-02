@@ -1,13 +1,13 @@
 {
-  "challenges:slayer/crusader": {
+  "challenges:arcanist/alchemist": {
     "criteria": {
-      "requirement": "2024-12-31 00:18:04 -0600"
+      "requirement": "2024-12-30 23:51:40 -0600"
     },
     "done": true
   },
-  "challenges:slayer/challenger": {
+  "challenges:arcanist/shaman": {
     "criteria": {
-      "requirement": "2024-12-31 01:44:43 -0600"
+      "requirement": "2024-12-30 23:51:40 -0600"
     },
     "done": true
   },
@@ -23,21 +23,45 @@
     },
     "done": true
   },
+  "challenges:slayer/crusader": {
+    "criteria": {
+      "requirement": "2024-12-31 00:18:04 -0600"
+    },
+    "done": true
+  },
+  "challenges:slayer/challenger": {
+    "criteria": {
+      "requirement": "2024-12-31 01:44:43 -0600"
+    },
+    "done": true
+  },
   "general:0_unique_explain": {
     "criteria": {
       "requirement": "2024-12-31 01:54:57 -0600"
     },
     "done": true
   },
-  "challenges:arcanist/alchemist": {
+  "challenges:arcanist/spellblade": {
     "criteria": {
-      "requirement": "2024-12-30 23:51:40 -0600"
+      "requirement": "2025-01-01 23:37:18 -0600"
     },
     "done": true
   },
-  "challenges:arcanist/shaman": {
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
     "criteria": {
-      "requirement": "2024-12-30 23:51:40 -0600"
+      "has_blue_orchid": "2025-01-01 23:12:37 -0600"
+    },
+    "done": true
+  },
+  "challenges:arcanist/blacksmith": {
+    "criteria": {
+      "requirement": "2025-01-01 23:54:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-01 23:47:00 -0600"
     },
     "done": true
   },

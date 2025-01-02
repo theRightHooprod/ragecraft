@@ -29,6 +29,12 @@
     },
     "done": true
   },
+  "challenges:explorer/pioneer": {
+    "criteria": {
+      "requirement": "2024-12-31 00:15:08 -0600"
+    },
+    "done": true
+  },
   "challenges:slayer/crusader": {
     "criteria": {
       "requirement": "2024-12-31 00:15:42 -0600"
@@ -41,9 +47,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/stone_brick_wall": {
+  "skills:rangedkill_x": {
     "criteria": {
-      "has_stone_bricks": "2024-12-31 01:29:42 -0600"
+      "requirement": "2024-12-31 00:40:51 -0600"
     },
     "done": true
   },
@@ -53,15 +59,45 @@
     },
     "done": true
   },
-  "challenges:explorer/pioneer": {
+  "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
-      "requirement": "2024-12-31 00:15:08 -0600"
+      "has_stone_bricks": "2024-12-31 01:29:42 -0600"
     },
     "done": true
   },
-  "skills:rangedkill_x": {
+  "general:0_encyclopedia": {
     "criteria": {
-      "requirement": "2024-12-31 00:40:51 -0600"
+      "requirement": "2025-01-01 22:33:02 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_glazed_terracotta": {
+    "criteria": {
+      "has_green_terracotta": "2025-01-01 23:00:14 -0600"
+    },
+    "done": true
+  },
+  "challenges:slayer/inquisitor": {
+    "criteria": {
+      "requirement": "2025-01-02 01:36:25 -0600"
+    },
+    "done": true
+  },
+  "challenges:arcanist/spellblade": {
+    "criteria": {
+      "requirement": "2025-01-02 00:15:40 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-01-01 23:06:41 -0600"
+    },
+    "done": true
+  },
+  "general:0_upgrade_explain": {
+    "criteria": {
+      "requirement": "2025-01-01 23:09:11 -0600"
     },
     "done": true
   },
