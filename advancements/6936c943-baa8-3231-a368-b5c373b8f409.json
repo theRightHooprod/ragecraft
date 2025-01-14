@@ -11,5 +11,17 @@
     },
     "done": true
   },
+  "skills:rangedkill_x": {
+    "criteria": {
+      "requirement": "2025-01-14 00:18:59 -0600"
+    },
+    "done": true
+  },
+  "challenges:arcanist/spellblade": {
+    "criteria": {
+      "requirement": "2025-01-14 00:03:04 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

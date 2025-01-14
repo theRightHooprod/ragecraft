@@ -41,15 +41,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-01-01 23:12:37 -0600"
+    },
+    "done": true
+  },
   "challenges:arcanist/spellblade": {
     "criteria": {
       "requirement": "2025-01-01 23:37:18 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
-      "has_blue_orchid": "2025-01-01 23:12:37 -0600"
+      "has_iron_ingot": "2025-01-01 23:47:00 -0600"
     },
     "done": true
   },
@@ -59,9 +65,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
     "criteria": {
-      "has_iron_ingot": "2025-01-01 23:47:00 -0600"
+      "has_brown_terracotta": "2025-01-13 23:40:44 -0600"
     },
     "done": true
   },

@@ -17,21 +17,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
-    "criteria": {
-      "has_blue_orchid": "2025-01-01 23:08:32 -0600"
-    },
-    "done": true
-  },
   "general:0_upgrade_explain": {
     "criteria": {
       "requirement": "2025-01-01 23:08:17 -0600"
     },
     "done": true
   },
+  "minecraft:recipes/misc/light_blue_dye_from_blue_orchid": {
+    "criteria": {
+      "has_blue_orchid": "2025-01-01 23:08:32 -0600"
+    },
+    "done": true
+  },
   "general:0_unique_explain": {
     "criteria": {
       "requirement": "2025-01-01 23:37:23 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2025-01-14 00:47:16 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-14 00:30:06 -0600"
     },
     "done": true
   },
