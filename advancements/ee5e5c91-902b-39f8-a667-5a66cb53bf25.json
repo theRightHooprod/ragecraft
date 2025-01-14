@@ -17,5 +17,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-14 00:29:55 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
