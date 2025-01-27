@@ -101,15 +101,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-14 00:29:58 -0600"
+    },
+    "done": true
+  },
   "challenges:arcanist/spellbinder": {
     "criteria": {
       "requirement": "2025-01-14 00:30:36 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
-      "has_sandstone": "2025-01-14 00:29:58 -0600"
+      "has_polished_blackstone_bricks": "2025-01-27 00:00:30 -0600"
     },
     "done": true
   },

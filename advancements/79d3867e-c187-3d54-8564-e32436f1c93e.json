@@ -35,15 +35,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-01-14 00:30:06 -0600"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/brown_glazed_terracotta": {
     "criteria": {
       "has_brown_terracotta": "2025-01-14 00:47:16 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+  "challenges:slayer/crusader": {
     "criteria": {
-      "has_sandstone": "2025-01-14 00:30:06 -0600"
+      "requirement": "2025-01-27 01:15:32 -0600"
+    },
+    "done": true
+  },
+  "general:0_encyclopedia": {
+    "criteria": {
+      "requirement": "2025-01-26 23:25:51 -0600"
+    },
+    "done": true
+  },
+  "challenges:explorer/treasure_hunter": {
+    "criteria": {
+      "requirement": "2025-01-26 23:52:08 -0600"
+    },
+    "done": true
+  },
+  "challenges:slayer/ranger": {
+    "criteria": {
+      "requirement": "2025-01-27 00:47:09 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-01-27 00:03:12 -0600"
     },
     "done": true
   },
