@@ -89,5 +89,17 @@
     },
     "done": true
   },
+  "challenges:slayer/ranger": {
+    "criteria": {
+      "requirement": "2025-02-10 00:09:14 -0600"
+    },
+    "done": true
+  },
+  "challenges:arcanist/artisan": {
+    "criteria": {
+      "requirement": "2025-02-10 01:24:03 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
