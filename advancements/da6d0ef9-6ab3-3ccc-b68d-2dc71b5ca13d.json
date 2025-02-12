@@ -137,5 +137,23 @@
     },
     "done": true
   },
+  "challenges:slayer/hero": {
+    "criteria": {
+      "requirement": "2025-02-11 23:51:59 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2025-02-11 23:39:52 -0600"
+    },
+    "done": true
+  },
+  "challenges:slayer/ranger": {
+    "criteria": {
+      "requirement": "2025-02-11 23:59:51 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

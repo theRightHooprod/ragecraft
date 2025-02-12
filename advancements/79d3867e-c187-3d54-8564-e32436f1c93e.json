@@ -77,15 +77,15 @@
     },
     "done": true
   },
-  "events:explain_chains": {
-    "criteria": {
-      "requirement": "2025-02-10 01:30:51 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
     "criteria": {
       "has_polished_blackstone_bricks": "2025-02-10 00:42:12 -0600"
+    },
+    "done": true
+  },
+  "events:explain_chains": {
+    "criteria": {
+      "requirement": "2025-02-10 01:30:51 -0600"
     },
     "done": true
   },

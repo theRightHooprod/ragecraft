@@ -101,5 +101,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_bricks_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone_bricks": "2025-02-12 00:18:21 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
