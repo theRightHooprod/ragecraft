@@ -23,5 +23,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2025-02-16 22:59:56 -0600"
+    },
+    "done": true
+  },
+  "skills:0_agony_explain": {
+    "criteria": {
+      "requirement": "2025-02-16 23:21:32 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

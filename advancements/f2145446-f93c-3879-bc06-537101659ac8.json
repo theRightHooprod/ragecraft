@@ -107,5 +107,41 @@
     },
     "done": true
   },
+  "challenges:slayer/hero": {
+    "criteria": {
+      "requirement": "2025-02-16 23:50:23 -0600"
+    },
+    "done": true
+  },
+  "challenges:slayer/inquisitor": {
+    "criteria": {
+      "requirement": "2025-02-16 22:24:22 -0600"
+    },
+    "done": true
+  },
+  "general:0_upgrade_explain": {
+    "criteria": {
+      "requirement": "2025-02-16 22:33:31 -0600"
+    },
+    "done": true
+  },
+  "skills:0_agony_explain": {
+    "criteria": {
+      "requirement": "2025-02-16 23:19:00 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_sandstone_stonecutting": {
+    "criteria": {
+      "has_sandstone": "2025-02-16 23:50:00 -0600"
+    },
+    "done": true
+  },
+  "challenges:explorer/adventurer": {
+    "criteria": {
+      "requirement": "2025-02-16 22:33:20 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
