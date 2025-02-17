@@ -137,21 +137,57 @@
     },
     "done": true
   },
-  "challenges:slayer/hero": {
-    "criteria": {
-      "requirement": "2025-02-11 23:51:59 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/brown_glazed_terracotta": {
     "criteria": {
       "has_brown_terracotta": "2025-02-11 23:39:52 -0600"
     },
     "done": true
   },
+  "challenges:slayer/hero": {
+    "criteria": {
+      "requirement": "2025-02-11 23:51:59 -0600"
+    },
+    "done": true
+  },
   "challenges:slayer/ranger": {
     "criteria": {
       "requirement": "2025-02-11 23:59:51 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2025-02-16 21:37:41 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2025-02-16 21:37:41 -0600"
+    },
+    "done": true
+  },
+  "challenges:explorer/adventurer": {
+    "criteria": {
+      "requirement": "2025-02-16 22:33:20 -0600"
+    },
+    "done": true
+  },
+  "skills:0_agony_explain": {
+    "criteria": {
+      "requirement": "2025-02-16 23:19:23 -0600"
+    },
+    "done": true
+  },
+  "challenges:arcanist/warlock": {
+    "criteria": {
+      "requirement": "2025-02-17 00:25:32 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crimson_sign": {
+    "criteria": {
+      "has_planks": "2025-02-17 00:40:59 -0600"
     },
     "done": true
   },
