@@ -191,12 +191,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_rose_bush": {
-    "criteria": {
-      "has_rose_bush": "2025-02-22 00:14:00 -0600"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blue_bed": {
     "criteria": {
       "has_blue_wool": "2025-02-21 23:20:27 -0600"
@@ -206,6 +200,18 @@
   "minecraft:recipes/decorations/blue_carpet": {
     "criteria": {
       "has_blue_wool": "2025-02-21 23:20:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-02-22 00:14:00 -0600"
+    },
+    "done": true
+  },
+  "challenges:explorer/sapper": {
+    "criteria": {
+      "requirement": "2025-03-01 00:11:12 -0600"
     },
     "done": true
   },
