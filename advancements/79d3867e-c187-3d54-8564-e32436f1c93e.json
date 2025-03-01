@@ -107,15 +107,33 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2025-02-22 00:55:46 -0600"
+    },
+    "done": true
+  },
   "challenges:explorer/pioneer": {
     "criteria": {
       "requirement": "2025-02-22 01:18:16 -0600"
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+  "minecraft:recipes/decorations/green_glazed_terracotta": {
     "criteria": {
-      "has_rose_bush": "2025-02-22 00:55:46 -0600"
+      "has_green_terracotta": "2025-02-28 22:57:59 -0600"
+    },
+    "done": true
+  },
+  "challenges:slayer/challenger": {
+    "criteria": {
+      "requirement": "2025-03-01 00:07:03 -0600"
+    },
+    "done": true
+  },
+  "skills:0_rot_blast_explain": {
+    "criteria": {
+      "requirement": "2025-02-28 23:37:32 -0600"
     },
     "done": true
   },
