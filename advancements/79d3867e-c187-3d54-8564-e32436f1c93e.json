@@ -161,5 +161,17 @@
     },
     "done": true
   },
+  "challenges:arcanist/alchemist": {
+    "criteria": {
+      "requirement": "2025-03-28 21:27:04 -0600"
+    },
+    "done": true
+  },
+  "general:12_pretenderman": {
+    "criteria": {
+      "requirement": "2025-03-28 22:04:47 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

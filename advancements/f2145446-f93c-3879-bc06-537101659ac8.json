@@ -155,5 +155,17 @@
     },
     "done": true
   },
+  "general:0_smithing": {
+    "criteria": {
+      "requirement": "2025-03-28 22:15:21 -0600"
+    },
+    "done": true
+  },
+  "general:12_pretenderman": {
+    "criteria": {
+      "requirement": "2025-03-28 22:07:05 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
