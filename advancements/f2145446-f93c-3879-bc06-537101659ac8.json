@@ -155,15 +155,27 @@
     },
     "done": true
   },
+  "general:12_pretenderman": {
+    "criteria": {
+      "requirement": "2025-03-28 22:07:05 -0600"
+    },
+    "done": true
+  },
   "general:0_smithing": {
     "criteria": {
       "requirement": "2025-03-28 22:15:21 -0600"
     },
     "done": true
   },
-  "general:12_pretenderman": {
+  "general:0_encyclopedia": {
     "criteria": {
-      "requirement": "2025-03-28 22:07:05 -0600"
+      "requirement": "2025-04-04 23:16:04 -0600"
+    },
+    "done": true
+  },
+  "challenges:explorer/pathfinder": {
+    "criteria": {
+      "requirement": "2025-04-04 23:49:54 -0600"
     },
     "done": true
   },
