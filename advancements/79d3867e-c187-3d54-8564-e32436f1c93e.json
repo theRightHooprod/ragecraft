@@ -161,5 +161,35 @@
     },
     "done": true
   },
+  "challenges:arcanist/alchemist": {
+    "criteria": {
+      "requirement": "2025-03-28 21:27:04 -0600"
+    },
+    "done": true
+  },
+  "general:12_pretenderman": {
+    "criteria": {
+      "requirement": "2025-03-28 22:04:47 -0600"
+    },
+    "done": true
+  },
+  "general:0_smithing": {
+    "criteria": {
+      "requirement": "2025-04-04 23:26:29 -0600"
+    },
+    "done": true
+  },
+  "challenges:explorer/pathfinder": {
+    "criteria": {
+      "requirement": "2025-04-04 23:49:54 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2025-07-26 01:04:04 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

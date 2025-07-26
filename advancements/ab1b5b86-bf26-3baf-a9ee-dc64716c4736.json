@@ -1,0 +1,39 @@
+{
+  "mobs:taunt_trickster": {
+    "criteria": {
+      "requirement": "2025-07-26 00:58:07 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2025-07-26 01:03:45 -0600"
+    },
+    "done": true
+  },
+  "challenges:explorer/treasure_hunter": {
+    "criteria": {
+      "requirement": "2025-07-26 01:06:27 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-26 01:38:29 -0600"
+    },
+    "done": true
+  },
+  "general:12_pretenderman": {
+    "criteria": {
+      "requirement": "2025-07-26 01:22:10 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2025-07-26 01:54:01 -0600"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
