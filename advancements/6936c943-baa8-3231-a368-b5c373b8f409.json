@@ -65,6 +65,12 @@
     },
     "done": true
   },
+  "general:12_pretenderman": {
+    "criteria": {
+      "requirement": "2025-03-28 22:04:08 -0600"
+    },
+    "done": true
+  },
   "mobs:taunt_trickster": {
     "criteria": {
       "requirement": "2025-03-28 22:06:04 -0600"
@@ -77,9 +83,21 @@
     },
     "done": true
   },
-  "general:12_pretenderman": {
+  "challenges:slayer/challenger": {
     "criteria": {
-      "requirement": "2025-03-28 22:04:08 -0600"
+      "requirement": "2025-07-25 22:41:51 -0600"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-07-26 01:19:24 -0600"
+    },
+    "done": true
+  },
+  "challenges:explorer/pioneer": {
+    "criteria": {
+      "requirement": "2025-07-26 01:15:02 -0600"
     },
     "done": true
   },

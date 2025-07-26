@@ -185,5 +185,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/blue_glazed_terracotta": {
+    "criteria": {
+      "has_blue_terracotta": "2025-07-26 01:04:04 -0600"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
